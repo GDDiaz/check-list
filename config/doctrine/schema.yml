@@ -1,0 +1,45 @@
+CheckList:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    descriptor:
+      type: clob
+    prefix:
+      type: string(255)
+    threshold:
+      type: integer
+      notnull: true
+    status:
+      type: string
+      notnull: true
+    versionAt:
+      type: string
+
+Criteria:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    check_list_id:
+      type: integer
+  relations:
+    CheckList:
+      onDelete: CASCADE
+      local: check_list_id
+      foreign: id
+      foreignAlias: Criteria

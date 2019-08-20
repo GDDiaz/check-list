@@ -1,0 +1,1924 @@
+Aug 05 04:36:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /check-list with parameters array (  'module' => 'check-list',  'action' => 'index',)
+Aug 05 04:36:08 symfony [info] {sfFrontWebController} Action "checklist/index" does not exist
+Aug 05 04:36:08 symfony [err] {sfError404Exception} Action "checklist/index" does not exist.
+Aug 05 04:36:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:36:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:36:08 symfony [info] {sfWebDebugLogger} Configuration 517.12 ms (7)
+Aug 05 04:36:08 symfony [info] {sfWebDebugLogger} Factories 1089.93 ms (1)
+Aug 05 04:37:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checklist with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Aug 05 04:37:11 symfony [info] {sfFrontWebController} Action "checklist/index" does not exist
+Aug 05 04:37:11 symfony [err] {sfError404Exception} Action "checklist/index" does not exist.
+Aug 05 04:37:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:37:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:37:11 symfony [info] {sfWebDebugLogger} Configuration 4.54 ms (6)
+Aug 05 04:37:11 symfony [info] {sfWebDebugLogger} Factories 31.11 ms (1)
+Aug 05 04:37:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 04:37:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 04:37:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 04:37:40 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 04:37:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 04:37:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 04:37:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 04:37:40 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:37:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:37:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 04:37:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:37:40 symfony [info] {sfWebDebugLogger} Configuration 110.39 ms (11)
+Aug 05 04:37:40 symfony [info] {sfWebDebugLogger} Factories 29.57 ms (1)
+Aug 05 04:37:40 symfony [info] {sfWebDebugLogger} Action "checkList/index" 392.84 ms (1)
+Aug 05 04:37:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.06 ms (2)
+Aug 05 04:37:40 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 156.37 ms (1)
+Aug 05 04:37:40 symfony [info] {sfWebResponse} Send content (32120 o)
+Aug 05 04:54:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 04:54:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 04:54:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 04:54:02 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 04:54:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 04:54:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 04:54:02 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 04:54:03 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:54:03 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:54:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 04:54:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:03 symfony [info] {sfWebDebugLogger} Configuration 11.17 ms (10)
+Aug 05 04:54:03 symfony [info] {sfWebDebugLogger} Factories 644.69 ms (1)
+Aug 05 04:54:03 symfony [info] {sfWebDebugLogger} Action "checkList/index" 615.17 ms (1)
+Aug 05 04:54:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.15 ms (2)
+Aug 05 04:54:03 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 216.99 ms (1)
+Aug 05 04:54:03 symfony [info] {sfWebResponse} Send content (83046 o)
+Aug 05 04:54:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/colors/default-dark.css with parameters array (  'module' => 'css',  'action' => 'colors',  'default-dark.css' => true,)
+Aug 05 04:54:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/pages/dashboard1.css with parameters array (  'module' => 'css',  'action' => 'pages',  'dashboard1.css' => true,)
+Aug 05 04:54:04 symfony [info] {sfFrontWebController} Action "css/colors" does not exist
+Aug 05 04:54:04 symfony [err] {sfError404Exception} Action "css/colors" does not exist.
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Configuration 6.17 ms (6)
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Factories 49.28 ms (1)
+Aug 05 04:54:04 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/css/style.css" (/).
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Configuration 6.67 ms (6)
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Factories 372.86 ms (1)
+Aug 05 04:54:04 symfony [info] {sfFrontWebController} Action "css/pages" does not exist
+Aug 05 04:54:04 symfony [err] {sfError404Exception} Action "css/pages" does not exist.
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Configuration 6.05 ms (6)
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Factories 368.46 ms (1)
+Aug 05 04:54:04 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Configuration 4.88 ms (6)
+Aug 05 04:54:04 symfony [info] {sfWebDebugLogger} Factories 80.42 ms (1)
+Aug 05 04:54:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Configuration 8.08 ms (6)
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Factories 148.71 ms (1)
+Aug 05 04:54:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Configuration 4.66 ms (6)
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Factories 411.31 ms (1)
+Aug 05 04:54:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Configuration 6.06 ms (6)
+Aug 05 04:54:05 symfony [info] {sfWebDebugLogger} Factories 242.95 ms (1)
+Aug 05 04:54:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Configuration 9.13 ms (6)
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Factories 133.40 ms (1)
+Aug 05 04:54:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Configuration 9.85 ms (6)
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Factories 52.59 ms (1)
+Aug 05 04:54:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Configuration 5.65 ms (6)
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Factories 46.71 ms (1)
+Aug 05 04:54:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Configuration 4.85 ms (6)
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Factories 38.29 ms (1)
+Aug 05 04:54:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Configuration 5.06 ms (6)
+Aug 05 04:54:06 symfony [info] {sfWebDebugLogger} Factories 34.39 ms (1)
+Aug 05 04:54:07 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 04:54:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:54:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:54:07 symfony [info] {sfWebDebugLogger} Configuration 7.17 ms (6)
+Aug 05 04:54:07 symfony [info] {sfWebDebugLogger} Factories 32.34 ms (1)
+Aug 05 04:57:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 04:57:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 04:57:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 04:57:50 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 04:57:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 04:57:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 04:57:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 04:57:50 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:57:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Configuration 11.27 ms (10)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Factories 30.60 ms (1)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Action "checkList/index" 27.26 ms (1)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.30 ms (1)
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send content (83043 o)
+Aug 05 04:57:50 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/css/style.css" (/).
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Configuration 5.30 ms (6)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Factories 76.14 ms (1)
+Aug 05 04:57:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/colors/default-dark.css with parameters array (  'module' => 'css',  'action' => 'colors',  'default-dark.css' => true,)
+Aug 05 04:57:50 symfony [info] {sfFrontWebController} Action "css/colors" does not exist
+Aug 05 04:57:50 symfony [err] {sfError404Exception} Action "css/colors" does not exist.
+Aug 05 04:57:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/pages/dashboard1.css with parameters array (  'module' => 'css',  'action' => 'pages',  'dashboard1.css' => true,)
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Configuration 4.87 ms (6)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Factories 172.94 ms (1)
+Aug 05 04:57:50 symfony [info] {sfFrontWebController} Action "css/pages" does not exist
+Aug 05 04:57:50 symfony [err] {sfError404Exception} Action "css/pages" does not exist.
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Configuration 4.59 ms (6)
+Aug 05 04:57:50 symfony [info] {sfWebDebugLogger} Factories 172.26 ms (1)
+Aug 05 04:57:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Configuration 6.40 ms (6)
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Factories 117.26 ms (1)
+Aug 05 04:57:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Configuration 6.18 ms (6)
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Factories 125.90 ms (1)
+Aug 05 04:57:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Configuration 5.28 ms (6)
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Factories 68.86 ms (1)
+Aug 05 04:57:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Configuration 4.63 ms (6)
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Factories 149.59 ms (1)
+Aug 05 04:57:51 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Configuration 5.38 ms (6)
+Aug 05 04:57:51 symfony [info] {sfWebDebugLogger} Factories 51.08 ms (1)
+Aug 05 04:57:52 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Configuration 5.42 ms (6)
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Factories 104.49 ms (1)
+Aug 05 04:57:52 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Configuration 4.59 ms (6)
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Factories 124.59 ms (1)
+Aug 05 04:57:52 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Configuration 4.26 ms (6)
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Factories 50.41 ms (1)
+Aug 05 04:57:52 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Configuration 7.49 ms (6)
+Aug 05 04:57:52 symfony [info] {sfWebDebugLogger} Factories 39.01 ms (1)
+Aug 05 04:57:53 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 04:57:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 04:57:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 04:57:53 symfony [info] {sfWebDebugLogger} Configuration 5.09 ms (6)
+Aug 05 04:57:53 symfony [info] {sfWebDebugLogger} Factories 29.23 ms (1)
+Aug 05 05:04:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:04:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:04:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:04:44 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:04:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:04:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:04:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:04:44 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:04:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Configuration 8.92 ms (10)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Factories 31.04 ms (1)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.09 ms (1)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.09 ms (2)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.62 ms (1)
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send content (82973 o)
+Aug 05 05:04:44 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/css/style.css" (/).
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Configuration 5.74 ms (6)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Factories 155.86 ms (1)
+Aug 05 05:04:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/pages/dashboard1.css with parameters array (  'module' => 'css',  'action' => 'pages',  'dashboard1.css' => true,)
+Aug 05 05:04:44 symfony [info] {sfFrontWebController} Action "css/pages" does not exist
+Aug 05 05:04:44 symfony [err] {sfError404Exception} Action "css/pages" does not exist.
+Aug 05 05:04:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/colors/default-dark.css with parameters array (  'module' => 'css',  'action' => 'colors',  'default-dark.css' => true,)
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Configuration 6.97 ms (6)
+Aug 05 05:04:44 symfony [info] {sfWebDebugLogger} Factories 326.86 ms (1)
+Aug 05 05:04:45 symfony [info] {sfFrontWebController} Action "css/colors" does not exist
+Aug 05 05:04:45 symfony [err] {sfError404Exception} Action "css/colors" does not exist.
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Configuration 5.40 ms (6)
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Factories 319.77 ms (1)
+Aug 05 05:04:45 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Configuration 7.15 ms (6)
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Factories 71.52 ms (1)
+Aug 05 05:04:45 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Configuration 6.68 ms (6)
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Factories 147.00 ms (1)
+Aug 05 05:04:45 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Configuration 4.97 ms (6)
+Aug 05 05:04:45 symfony [info] {sfWebDebugLogger} Factories 177.28 ms (1)
+Aug 05 05:04:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Configuration 7.09 ms (6)
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Factories 158.19 ms (1)
+Aug 05 05:04:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Configuration 5.93 ms (6)
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Factories 44.89 ms (1)
+Aug 05 05:04:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Configuration 6.19 ms (6)
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Factories 256.00 ms (1)
+Aug 05 05:04:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Configuration 8.58 ms (6)
+Aug 05 05:04:46 symfony [info] {sfWebDebugLogger} Factories 125.28 ms (1)
+Aug 05 05:04:47 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:04:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:47 symfony [info] {sfWebDebugLogger} Configuration 8.86 ms (6)
+Aug 05 05:04:47 symfony [info] {sfWebDebugLogger} Factories 79.27 ms (1)
+Aug 05 05:04:47 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:04:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:47 symfony [info] {sfWebDebugLogger} Configuration 6.57 ms (6)
+Aug 05 05:04:47 symfony [info] {sfWebDebugLogger} Factories 90.07 ms (1)
+Aug 05 05:04:48 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:04:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:04:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:04:48 symfony [info] {sfWebDebugLogger} Configuration 4.52 ms (6)
+Aug 05 05:04:48 symfony [info] {sfWebDebugLogger} Factories 27.99 ms (1)
+Aug 05 05:05:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:05:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:05:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:05:16 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:05:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:05:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:05:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:05:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:05:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:05:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:05:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Configuration 7.72 ms (10)
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Factories 28.03 ms (1)
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Action "checkList/index" 28.77 ms (1)
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.77 ms (2)
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 12.74 ms (1)
+Aug 05 05:05:16 symfony [info] {sfWebResponse} Send content (82957 o)
+Aug 05 05:05:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/css/style.css" (/).
+Aug 05 05:05:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Configuration 5.66 ms (6)
+Aug 05 05:05:16 symfony [info] {sfWebDebugLogger} Factories 134.07 ms (1)
+Aug 05 05:05:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/pages/dashboard1.css with parameters array (  'module' => 'css',  'action' => 'pages',  'dashboard1.css' => true,)
+Aug 05 05:05:17 symfony [info] {sfFrontWebController} Action "css/pages" does not exist
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Action "css/pages" does not exist.
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 4.61 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 269.04 ms (1)
+Aug 05 05:05:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /css/colors/default-dark.css with parameters array (  'module' => 'css',  'action' => 'colors',  'default-dark.css' => true,)
+Aug 05 05:05:17 symfony [info] {sfFrontWebController} Action "css/colors" does not exist
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Action "css/colors" does not exist.
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 14.45 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 65.24 ms (1)
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 4.86 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 235.13 ms (1)
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 6.42 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 165.80 ms (1)
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 5.90 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 248.98 ms (1)
+Aug 05 05:05:17 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Configuration 4.85 ms (6)
+Aug 05 05:05:17 symfony [info] {sfWebDebugLogger} Factories 330.39 ms (1)
+Aug 05 05:05:18 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Configuration 5.70 ms (6)
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Factories 100.72 ms (1)
+Aug 05 05:05:18 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Configuration 6.38 ms (6)
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Factories 240.41 ms (1)
+Aug 05 05:05:18 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (6)
+Aug 05 05:05:18 symfony [info] {sfWebDebugLogger} Factories 102.46 ms (1)
+Aug 05 05:05:18 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Configuration 5.27 ms (6)
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Factories 57.32 ms (1)
+Aug 05 05:05:19 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Configuration 5.66 ms (6)
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Factories 43.64 ms (1)
+Aug 05 05:05:19 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:05:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Configuration 5.08 ms (6)
+Aug 05 05:05:19 symfony [info] {sfWebDebugLogger} Factories 27.67 ms (1)
+Aug 05 05:09:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:09:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:09:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:09:30 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:09:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:09:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:09:30 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:09:30 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:09:30 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:09:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:09:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:30 symfony [info] {sfWebDebugLogger} Configuration 9.41 ms (10)
+Aug 05 05:09:30 symfony [info] {sfWebDebugLogger} Factories 29.75 ms (1)
+Aug 05 05:09:30 symfony [info] {sfWebDebugLogger} Action "checkList/index" 27.79 ms (1)
+Aug 05 05:09:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.12 ms (2)
+Aug 05 05:09:30 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.32 ms (1)
+Aug 05 05:09:30 symfony [info] {sfWebResponse} Send content (82345 o)
+Aug 05 05:09:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Configuration 5.08 ms (6)
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Factories 209.73 ms (1)
+Aug 05 05:09:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Configuration 5.05 ms (6)
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Factories 116.12 ms (1)
+Aug 05 05:09:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Configuration 10.74 ms (6)
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Factories 146.06 ms (1)
+Aug 05 05:09:31 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Configuration 4.49 ms (6)
+Aug 05 05:09:31 symfony [info] {sfWebDebugLogger} Factories 165.40 ms (1)
+Aug 05 05:09:32 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:09:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:32 symfony [info] {sfWebDebugLogger} Configuration 5.93 ms (6)
+Aug 05 05:09:32 symfony [info] {sfWebDebugLogger} Factories 112.30 ms (1)
+Aug 05 05:09:32 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:09:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:32 symfony [info] {sfWebDebugLogger} Configuration 4.28 ms (6)
+Aug 05 05:09:32 symfony [info] {sfWebDebugLogger} Factories 203.02 ms (1)
+Aug 05 05:09:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:09:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:33 symfony [info] {sfWebDebugLogger} Configuration 7.64 ms (6)
+Aug 05 05:09:33 symfony [info] {sfWebDebugLogger} Factories 40.00 ms (1)
+Aug 05 05:09:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:09:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:09:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:09:58 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:09:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:09:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:09:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:09:58 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:09:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:09:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:09:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:58 symfony [info] {sfWebDebugLogger} Configuration 9.14 ms (10)
+Aug 05 05:09:58 symfony [info] {sfWebDebugLogger} Factories 27.66 ms (1)
+Aug 05 05:09:58 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.93 ms (1)
+Aug 05 05:09:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.67 ms (2)
+Aug 05 05:09:58 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.54 ms (1)
+Aug 05 05:09:58 symfony [info] {sfWebResponse} Send content (82341 o)
+Aug 05 05:09:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Configuration 5.26 ms (6)
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Factories 206.99 ms (1)
+Aug 05 05:09:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Configuration 6.28 ms (6)
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Factories 255.11 ms (1)
+Aug 05 05:09:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Configuration 5.13 ms (6)
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Factories 141.08 ms (1)
+Aug 05 05:09:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Configuration 6.29 ms (6)
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Factories 180.76 ms (1)
+Aug 05 05:09:59 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:09:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Configuration 16.34 ms (6)
+Aug 05 05:09:59 symfony [info] {sfWebDebugLogger} Factories 82.44 ms (1)
+Aug 05 05:10:00 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:10:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:10:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:10:00 symfony [info] {sfWebDebugLogger} Configuration 5.17 ms (6)
+Aug 05 05:10:00 symfony [info] {sfWebDebugLogger} Factories 192.05 ms (1)
+Aug 05 05:10:00 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:10:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:10:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:10:00 symfony [info] {sfWebDebugLogger} Configuration 4.74 ms (6)
+Aug 05 05:10:00 symfony [info] {sfWebDebugLogger} Factories 28.18 ms (1)
+Aug 05 05:11:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:11:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:11:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:11:13 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:11:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:11:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:11:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:11:13 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:11:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:11:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:11:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:13 symfony [info] {sfWebDebugLogger} Configuration 9.40 ms (10)
+Aug 05 05:11:13 symfony [info] {sfWebDebugLogger} Factories 30.24 ms (1)
+Aug 05 05:11:13 symfony [info] {sfWebDebugLogger} Action "checkList/index" 31.66 ms (1)
+Aug 05 05:11:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.73 ms (2)
+Aug 05 05:11:13 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 10.58 ms (1)
+Aug 05 05:11:13 symfony [info] {sfWebResponse} Send content (82954 o)
+Aug 05 05:11:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Configuration 4.58 ms (6)
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Factories 113.08 ms (1)
+Aug 05 05:11:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Configuration 4.49 ms (6)
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Factories 207.15 ms (1)
+Aug 05 05:11:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Configuration 6.16 ms (6)
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Factories 65.26 ms (1)
+Aug 05 05:11:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Configuration 5.89 ms (6)
+Aug 05 05:11:14 symfony [info] {sfWebDebugLogger} Factories 229.90 ms (1)
+Aug 05 05:11:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Configuration 37.28 ms (6)
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Factories 98.37 ms (1)
+Aug 05 05:11:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Configuration 26.53 ms (6)
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Factories 58.06 ms (1)
+Aug 05 05:11:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Configuration 6.29 ms (6)
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Factories 32.30 ms (1)
+Aug 05 05:11:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Configuration 4.83 ms (6)
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Factories 35.28 ms (1)
+Aug 05 05:11:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Configuration 5.69 ms (6)
+Aug 05 05:11:15 symfony [info] {sfWebDebugLogger} Factories 28.00 ms (1)
+Aug 05 05:11:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:11:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:16 symfony [info] {sfWebDebugLogger} Configuration 4.66 ms (6)
+Aug 05 05:11:16 symfony [info] {sfWebDebugLogger} Factories 25.88 ms (1)
+Aug 05 05:11:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:11:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:11:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:11:36 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:11:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:11:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:11:37 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:11:37 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:11:37 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:11:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:11:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Configuration 7.94 ms (10)
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Factories 28.29 ms (1)
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.01 ms (1)
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.77 ms (2)
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 11.69 ms (1)
+Aug 05 05:11:37 symfony [info] {sfWebResponse} Send content (82982 o)
+Aug 05 05:11:37 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:11:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Configuration 4.87 ms (6)
+Aug 05 05:11:37 symfony [info] {sfWebDebugLogger} Factories 155.74 ms (1)
+Aug 05 05:11:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Configuration 6.29 ms (6)
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Factories 209.01 ms (1)
+Aug 05 05:11:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Configuration 4.37 ms (6)
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Factories 370.82 ms (1)
+Aug 05 05:11:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Configuration 6.67 ms (6)
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Factories 285.49 ms (1)
+Aug 05 05:11:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/perfect-scrollbar.jquery.min.js" (/).
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Configuration 7.35 ms (6)
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Factories 79.68 ms (1)
+Aug 05 05:11:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Configuration 5.17 ms (6)
+Aug 05 05:11:38 symfony [info] {sfWebDebugLogger} Factories 64.69 ms (1)
+Aug 05 05:11:39 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/waves.js" (/).
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Configuration 5.49 ms (6)
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Factories 66.38 ms (1)
+Aug 05 05:11:39 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/sidebarmenu.js" (/).
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Configuration 4.83 ms (6)
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Factories 66.25 ms (1)
+Aug 05 05:11:39 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/custom.min.js" (/).
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Configuration 8.49 ms (6)
+Aug 05 05:11:39 symfony [info] {sfWebDebugLogger} Factories 39.34 ms (1)
+Aug 05 05:11:40 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/js/dashboard1.js" (/).
+Aug 05 05:11:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 05 05:11:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:11:40 symfony [info] {sfWebDebugLogger} Configuration 5.60 ms (6)
+Aug 05 05:11:40 symfony [info] {sfWebDebugLogger} Factories 33.17 ms (1)
+Aug 05 05:19:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:19:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:19:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:19:23 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:19:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:19:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:19:23 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:19:23 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:19:23 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:19:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:19:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:19:23 symfony [info] {sfWebDebugLogger} Configuration 12.98 ms (10)
+Aug 05 05:19:23 symfony [info] {sfWebDebugLogger} Factories 30.58 ms (1)
+Aug 05 05:19:23 symfony [info] {sfWebDebugLogger} Action "checkList/index" 34.79 ms (1)
+Aug 05 05:19:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.92 ms (2)
+Aug 05 05:19:23 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 15.01 ms (1)
+Aug 05 05:19:23 symfony [info] {sfWebResponse} Send content (82466 o)
+Aug 05 05:20:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:20:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:20:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:20:15 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:20:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:20:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:20:15 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:20:15 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:20:15 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:20:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:20:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:20:15 symfony [info] {sfWebDebugLogger} Configuration 8.73 ms (10)
+Aug 05 05:20:15 symfony [info] {sfWebDebugLogger} Factories 28.60 ms (1)
+Aug 05 05:20:15 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.07 ms (1)
+Aug 05 05:20:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Aug 05 05:20:15 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.11 ms (1)
+Aug 05 05:20:15 symfony [info] {sfWebResponse} Send content (82431 o)
+Aug 05 05:21:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:21:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:21:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:21:01 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:21:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:21:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:21:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:21:01 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:21:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:21:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:21:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:21:01 symfony [info] {sfWebDebugLogger} Configuration 10.81 ms (10)
+Aug 05 05:21:01 symfony [info] {sfWebDebugLogger} Factories 31.34 ms (1)
+Aug 05 05:21:01 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.94 ms (1)
+Aug 05 05:21:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.88 ms (2)
+Aug 05 05:21:01 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 12.93 ms (1)
+Aug 05 05:21:01 symfony [info] {sfWebResponse} Send content (82449 o)
+Aug 05 05:21:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:21:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:21:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:21:32 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:21:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:21:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:21:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:21:32 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:21:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:21:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:21:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:21:32 symfony [info] {sfWebDebugLogger} Configuration 9.21 ms (10)
+Aug 05 05:21:32 symfony [info] {sfWebDebugLogger} Factories 32.47 ms (1)
+Aug 05 05:21:32 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.43 ms (1)
+Aug 05 05:21:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.77 ms (2)
+Aug 05 05:21:32 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.47 ms (1)
+Aug 05 05:21:32 symfony [info] {sfWebResponse} Send content (82383 o)
+Aug 05 05:23:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:23:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:23:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:23:10 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:23:10 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:23:10 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:23:11 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:23:11 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:23:11 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:23:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:23:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:23:11 symfony [info] {sfWebDebugLogger} Configuration 12.35 ms (10)
+Aug 05 05:23:11 symfony [info] {sfWebDebugLogger} Factories 40.48 ms (1)
+Aug 05 05:23:11 symfony [info] {sfWebDebugLogger} Action "checkList/index" 33.60 ms (1)
+Aug 05 05:23:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.50 ms (2)
+Aug 05 05:23:11 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 16.46 ms (1)
+Aug 05 05:23:11 symfony [info] {sfWebResponse} Send content (82360 o)
+Aug 05 05:23:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:23:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:23:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:23:48 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:23:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:23:48 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:23:48 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:23:48 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:23:48 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:23:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:23:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:23:48 symfony [info] {sfWebDebugLogger} Configuration 9.89 ms (10)
+Aug 05 05:23:48 symfony [info] {sfWebDebugLogger} Factories 33.25 ms (1)
+Aug 05 05:23:48 symfony [info] {sfWebDebugLogger} Action "checkList/index" 32.71 ms (1)
+Aug 05 05:23:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (2)
+Aug 05 05:23:48 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.53 ms (1)
+Aug 05 05:23:48 symfony [info] {sfWebResponse} Send content (82356 o)
+Aug 05 05:24:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:24:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:24:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:24:37 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:24:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:24:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:24:37 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:24:37 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:24:37 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:24:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:24:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:24:37 symfony [info] {sfWebDebugLogger} Configuration 10.11 ms (10)
+Aug 05 05:24:37 symfony [info] {sfWebDebugLogger} Factories 28.45 ms (1)
+Aug 05 05:24:37 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.12 ms (1)
+Aug 05 05:24:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Aug 05 05:24:37 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 15.02 ms (1)
+Aug 05 05:24:37 symfony [info] {sfWebResponse} Send content (82349 o)
+Aug 05 05:24:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:24:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:24:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:24:45 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:24:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:24:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:24:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:24:45 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:24:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:24:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:24:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:24:45 symfony [info] {sfWebDebugLogger} Configuration 9.68 ms (10)
+Aug 05 05:24:45 symfony [info] {sfWebDebugLogger} Factories 27.82 ms (1)
+Aug 05 05:24:45 symfony [info] {sfWebDebugLogger} Action "checkList/index" 28.06 ms (1)
+Aug 05 05:24:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.57 ms (2)
+Aug 05 05:24:45 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.84 ms (1)
+Aug 05 05:24:45 symfony [info] {sfWebResponse} Send content (82347 o)
+Aug 05 05:26:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 05 05:26:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 05 05:26:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 05 05:26:54 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 05 05:26:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 05 05:26:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 05 05:26:54 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 05 05:26:54 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:26:54 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 05 05:26:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 05 05:26:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 05 05:26:54 symfony [info] {sfWebDebugLogger} Configuration 10.68 ms (10)
+Aug 05 05:26:54 symfony [info] {sfWebDebugLogger} Factories 37.31 ms (1)
+Aug 05 05:26:54 symfony [info] {sfWebDebugLogger} Action "checkList/index" 28.36 ms (1)
+Aug 05 05:26:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Aug 05 05:26:54 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.24 ms (1)
+Aug 05 05:26:54 symfony [info] {sfWebResponse} Send content (82326 o)
+Aug 06 04:11:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:11:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:11:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:11:20 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:11:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:11:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:11:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:11:21 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:11:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:11:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:11:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:11:21 symfony [info] {sfWebDebugLogger} Configuration 10.80 ms (10)
+Aug 06 04:11:21 symfony [info] {sfWebDebugLogger} Factories 653.30 ms (1)
+Aug 06 04:11:21 symfony [info] {sfWebDebugLogger} Action "checkList/index" 839.82 ms (1)
+Aug 06 04:11:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 93.36 ms (2)
+Aug 06 04:11:21 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 145.57 ms (1)
+Aug 06 04:11:21 symfony [info] {sfWebResponse} Send content (82299 o)
+Aug 06 04:15:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:15:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:15:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:15:02 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:15:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:15:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:15:02 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:15:02 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:15:02 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:15:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:15:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:15:02 symfony [info] {sfWebDebugLogger} Configuration 12.69 ms (10)
+Aug 06 04:15:02 symfony [info] {sfWebDebugLogger} Factories 30.13 ms (1)
+Aug 06 04:15:02 symfony [info] {sfWebDebugLogger} Action "checkList/index" 24.42 ms (1)
+Aug 06 04:15:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Aug 06 04:15:02 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.26 ms (1)
+Aug 06 04:15:02 symfony [info] {sfWebResponse} Send content (80683 o)
+Aug 06 04:21:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:21:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:21:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:21:15 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:21:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:21:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:21:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:21:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:21:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:21:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:21:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:21:16 symfony [info] {sfWebDebugLogger} Configuration 15.50 ms (10)
+Aug 06 04:21:16 symfony [info] {sfWebDebugLogger} Factories 635.62 ms (1)
+Aug 06 04:21:16 symfony [info] {sfWebDebugLogger} Action "checkList/index" 564.65 ms (1)
+Aug 06 04:21:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Aug 06 04:21:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 298.80 ms (1)
+Aug 06 04:21:16 symfony [info] {sfWebResponse} Send content (80720 o)
+Aug 06 04:31:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:31:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:31:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:31:05 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:31:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:31:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:31:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:31:05 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:31:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:31:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:31:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:31:05 symfony [info] {sfWebDebugLogger} Configuration 14.55 ms (10)
+Aug 06 04:31:05 symfony [info] {sfWebDebugLogger} Factories 37.62 ms (1)
+Aug 06 04:31:05 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.22 ms (1)
+Aug 06 04:31:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.77 ms (2)
+Aug 06 04:31:05 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 15.60 ms (1)
+Aug 06 04:31:05 symfony [info] {sfWebResponse} Send content (80717 o)
+Aug 06 04:31:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:31:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:31:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:31:42 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:31:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:31:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:31:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:31:42 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:31:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:31:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:31:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:31:42 symfony [info] {sfWebDebugLogger} Configuration 12.48 ms (10)
+Aug 06 04:31:42 symfony [info] {sfWebDebugLogger} Factories 29.80 ms (1)
+Aug 06 04:31:42 symfony [info] {sfWebDebugLogger} Action "checkList/index" 25.35 ms (1)
+Aug 06 04:31:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Aug 06 04:31:42 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.01 ms (1)
+Aug 06 04:31:42 symfony [info] {sfWebResponse} Send content (80949 o)
+Aug 06 04:43:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:43:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:43:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:43:57 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:43:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:43:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:43:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:43:57 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:43:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:43:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:43:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:43:57 symfony [info] {sfWebDebugLogger} Configuration 11.20 ms (10)
+Aug 06 04:43:57 symfony [info] {sfWebDebugLogger} Factories 31.26 ms (1)
+Aug 06 04:43:57 symfony [info] {sfWebDebugLogger} Action "checkList/index" 28.65 ms (1)
+Aug 06 04:43:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.59 ms (2)
+Aug 06 04:43:57 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 14.76 ms (1)
+Aug 06 04:43:57 symfony [info] {sfWebResponse} Send content (82427 o)
+Aug 06 04:45:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:45:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:45:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:45:29 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:45:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:45:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:45:29 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:45:29 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:45:29 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:45:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:45:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:45:29 symfony [info] {sfWebDebugLogger} Configuration 11.40 ms (10)
+Aug 06 04:45:29 symfony [info] {sfWebDebugLogger} Factories 33.04 ms (1)
+Aug 06 04:45:29 symfony [info] {sfWebDebugLogger} Action "checkList/index" 31.75 ms (1)
+Aug 06 04:45:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.62 ms (2)
+Aug 06 04:45:29 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.66 ms (1)
+Aug 06 04:45:29 symfony [info] {sfWebResponse} Send content (82394 o)
+Aug 06 04:46:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 06 04:46:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:46:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:46:40 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 06 04:46:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 06 04:46:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 06 04:46:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 06 04:46:40 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:46:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:46:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:46:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:40 symfony [info] {sfWebDebugLogger} Configuration 12.65 ms (10)
+Aug 06 04:46:40 symfony [info] {sfWebDebugLogger} Factories 31.09 ms (1)
+Aug 06 04:46:40 symfony [info] {sfWebDebugLogger} Action "checkList/index" 28.59 ms (1)
+Aug 06 04:46:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Aug 06 04:46:40 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 13.85 ms (1)
+Aug 06 04:46:40 symfony [info] {sfWebResponse} Send content (81581 o)
+Aug 06 04:46:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:46:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:46:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:46:47 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:46:47 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:46:47 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:46:47 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:46:47 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:46:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:46:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Configuration 9.51 ms (10)
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Factories 30.76 ms (1)
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Action "checkList/new" 461.10 ms (1)
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 206.31 ms (1)
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 166.97 ms (1)
+Aug 06 04:46:47 symfony [info] {sfWebResponse} Send content (95495 o)
+Aug 06 04:46:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-icon.png' => true,)
+Aug 06 04:46:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-icon.png' => true,)
+Aug 06 04:46:47 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:47 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Configuration 6.32 ms (6)
+Aug 06 04:46:47 symfony [info] {sfWebDebugLogger} Factories 55.30 ms (1)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 5.96 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 170.28 ms (1)
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-text.png' => true,)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 5.73 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 33.21 ms (1)
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-text.png' => true,)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 8.32 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 156.59 ms (1)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 5.95 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 228.73 ms (1)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 5.89 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 176.95 ms (1)
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:46:48 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:48 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Configuration 25.48 ms (6)
+Aug 06 04:46:48 symfony [info] {sfWebDebugLogger} Factories 286.91 ms (1)
+Aug 06 04:46:49 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:49 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Configuration 21.13 ms (6)
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Factories 139.10 ms (1)
+Aug 06 04:46:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:46:49 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:49 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Configuration 5.58 ms (6)
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Factories 39.34 ms (1)
+Aug 06 04:46:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:46:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:46:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:46:49 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:49 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Configuration 6.29 ms (6)
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Factories 75.44 ms (1)
+Aug 06 04:46:49 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:49 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Configuration 6.21 ms (6)
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Factories 190.29 ms (1)
+Aug 06 04:46:49 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:46:49 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:46:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Configuration 5.84 ms (6)
+Aug 06 04:46:49 symfony [info] {sfWebDebugLogger} Factories 222.54 ms (1)
+Aug 06 04:47:05 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/checkList/index.html" (/).
+Aug 06 04:47:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:05 symfony [info] {sfWebDebugLogger} Configuration 5.84 ms (6)
+Aug 06 04:47:05 symfony [info] {sfWebDebugLogger} Factories 28.58 ms (1)
+Aug 06 04:47:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:47:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:47:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:47:08 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:47:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:47:08 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:47:08 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:47:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Configuration 10.28 ms (10)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Factories 26.96 ms (1)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Action "checkList/new" 22.03 ms (1)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 26.83 ms (1)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.53 ms (1)
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send content (95494 o)
+Aug 06 04:47:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-icon.png' => true,)
+Aug 06 04:47:08 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:08 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Configuration 25.64 ms (6)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Factories 47.68 ms (1)
+Aug 06 04:47:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-icon.png' => true,)
+Aug 06 04:47:08 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:08 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Configuration 28.86 ms (6)
+Aug 06 04:47:08 symfony [info] {sfWebDebugLogger} Factories 46.87 ms (1)
+Aug 06 04:47:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-text.png' => true,)
+Aug 06 04:47:08 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:08 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 7.98 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 96.37 ms (1)
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-text.png' => true,)
+Aug 06 04:47:09 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:09 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 6.92 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 164.23 ms (1)
+Aug 06 04:47:09 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:09 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 23.71 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 222.53 ms (1)
+Aug 06 04:47:09 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:09 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 7.92 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 92.99 ms (1)
+Aug 06 04:47:09 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:09 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 8.07 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 107.93 ms (1)
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:47:09 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:09 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Configuration 7.88 ms (6)
+Aug 06 04:47:09 symfony [info] {sfWebDebugLogger} Factories 65.25 ms (1)
+Aug 06 04:47:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:47:10 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:10 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Configuration 6.67 ms (6)
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Factories 91.90 ms (1)
+Aug 06 04:47:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:47:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:47:10 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:10 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Configuration 5.62 ms (6)
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Factories 146.26 ms (1)
+Aug 06 04:47:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:47:10 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:10 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Configuration 6.51 ms (6)
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Factories 172.71 ms (1)
+Aug 06 04:47:10 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:10 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Configuration 6.07 ms (6)
+Aug 06 04:47:10 symfony [info] {sfWebDebugLogger} Factories 287.53 ms (1)
+Aug 06 04:47:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/checkList/index.html" (/).
+Aug 06 04:47:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:14 symfony [info] {sfWebDebugLogger} Configuration 6.91 ms (6)
+Aug 06 04:47:14 symfony [info] {sfWebDebugLogger} Factories 31.02 ms (1)
+Aug 06 04:47:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:47:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:47:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:47:16 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:47:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:47:16 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:47:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:47:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Configuration 10.43 ms (10)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Factories 28.57 ms (1)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Action "checkList/new" 22.09 ms (1)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 28.00 ms (1)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.67 ms (1)
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send content (95494 o)
+Aug 06 04:47:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-icon.png' => true,)
+Aug 06 04:47:16 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:16 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Configuration 7.64 ms (6)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Factories 60.97 ms (1)
+Aug 06 04:47:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-icon.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-icon.png' => true,)
+Aug 06 04:47:16 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:16 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Configuration 6.27 ms (6)
+Aug 06 04:47:16 symfony [info] {sfWebDebugLogger} Factories 97.38 ms (1)
+Aug 06 04:47:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-light-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-light-text.png' => true,)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 27.52 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 113.72 ms (1)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/logo-text.png with parameters array (  'module' => 'assets',  'action' => 'images',  'logo-text.png' => true,)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 78.48 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 275.39 ms (1)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 21.24 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 134.58 ms (1)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 13.63 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 167.59 ms (1)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 14.67 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 292.59 ms (1)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:47:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:47:17 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:17 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Configuration 6.35 ms (6)
+Aug 06 04:47:17 symfony [info] {sfWebDebugLogger} Factories 156.87 ms (1)
+Aug 06 04:47:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:47:18 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:18 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Configuration 5.53 ms (6)
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Factories 173.83 ms (1)
+Aug 06 04:47:18 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:18 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Configuration 5.17 ms (6)
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Factories 124.31 ms (1)
+Aug 06 04:47:18 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:18 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Configuration 5.72 ms (6)
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Factories 124.37 ms (1)
+Aug 06 04:47:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:47:18 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:47:18 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:47:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Configuration 5.37 ms (6)
+Aug 06 04:47:18 symfony [info] {sfWebDebugLogger} Factories 76.06 ms (1)
+Aug 06 04:52:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:52:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:52:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:52:12 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:52:12 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:52:12 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:52:12 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:52:12 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:52:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:52:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Configuration 10.45 ms (10)
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Factories 29.39 ms (1)
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Action "checkList/new" 36.20 ms (1)
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 34.47 ms (1)
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 16.98 ms (1)
+Aug 06 04:52:12 symfony [info] {sfWebResponse} Send content (79204 o)
+Aug 06 04:52:12 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-light-icon.png" (/).
+Aug 06 04:52:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Configuration 5.82 ms (6)
+Aug 06 04:52:12 symfony [info] {sfWebDebugLogger} Factories 73.61 ms (1)
+Aug 06 04:52:12 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-icon.png" (/).
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Configuration 5.21 ms (6)
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Factories 108.85 ms (1)
+Aug 06 04:52:13 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-text.png" (/).
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Configuration 6.17 ms (6)
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Factories 94.37 ms (1)
+Aug 06 04:52:13 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-light-text.png" (/).
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Configuration 5.90 ms (6)
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Factories 65.51 ms (1)
+Aug 06 04:52:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:52:13 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:13 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Configuration 52.77 ms (6)
+Aug 06 04:52:13 symfony [info] {sfWebDebugLogger} Factories 262.36 ms (1)
+Aug 06 04:52:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:52:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 15.44 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 234.99 ms (1)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 5.53 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 109.25 ms (1)
+Aug 06 04:52:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 6.00 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 196.55 ms (1)
+Aug 06 04:52:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:52:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:52:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 9.71 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 107.55 ms (1)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 11.76 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 285.24 ms (1)
+Aug 06 04:52:14 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:14 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Configuration 5.83 ms (6)
+Aug 06 04:52:14 symfony [info] {sfWebDebugLogger} Factories 272.13 ms (1)
+Aug 06 04:52:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:52:15 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:52:15 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:52:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:52:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:52:15 symfony [info] {sfWebDebugLogger} Configuration 9.13 ms (6)
+Aug 06 04:52:15 symfony [info] {sfWebDebugLogger} Factories 95.04 ms (1)
+Aug 06 04:53:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:53:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:53:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:53:20 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:53:20 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:53:20 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:53:20 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:20 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:53:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Configuration 14.94 ms (10)
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Factories 35.76 ms (1)
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Action "checkList/new" 24.05 ms (1)
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 29.81 ms (1)
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.82 ms (1)
+Aug 06 04:53:20 symfony [info] {sfWebResponse} Send content (79198 o)
+Aug 06 04:53:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/images/logo-light-icon.png with parameters array (  'module' => 'checkList',  'action' => 'images',  'logo-light-icon.png' => true,)
+Aug 06 04:53:20 symfony [info] {sfFrontWebController} Action "checkList/images" does not exist
+Aug 06 04:53:20 symfony [err] {sfError404Exception} Action "checkList/images" does not exist.
+Aug 06 04:53:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Configuration 5.75 ms (6)
+Aug 06 04:53:20 symfony [info] {sfWebDebugLogger} Factories 32.97 ms (1)
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-text.png" (/).
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 6.09 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 131.34 ms (1)
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-light-text.png" (/).
+Aug 06 04:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 6.86 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 148.64 ms (1)
+Aug 06 04:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:53:21 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 36.97 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 116.65 ms (1)
+Aug 06 04:53:21 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 7.87 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 73.42 ms (1)
+Aug 06 04:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:53:21 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 6.87 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 77.84 ms (1)
+Aug 06 04:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:53:21 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:21 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Configuration 5.31 ms (6)
+Aug 06 04:53:21 symfony [info] {sfWebDebugLogger} Factories 78.79 ms (1)
+Aug 06 04:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:53:22 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:22 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Configuration 28.17 ms (6)
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Factories 71.82 ms (1)
+Aug 06 04:53:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:53:22 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:22 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Configuration 5.81 ms (6)
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Factories 68.84 ms (1)
+Aug 06 04:53:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:53:22 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:22 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Configuration 48.68 ms (6)
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Factories 110.60 ms (1)
+Aug 06 04:53:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:53:22 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:22 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Configuration 6.78 ms (6)
+Aug 06 04:53:22 symfony [info] {sfWebDebugLogger} Factories 116.45 ms (1)
+Aug 06 04:53:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:53:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:53:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:53:33 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:53:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:53:33 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:53:33 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:53:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Configuration 8.64 ms (10)
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Factories 32.52 ms (1)
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Action "checkList/new" 25.61 ms (1)
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 24.40 ms (1)
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.32 ms (1)
+Aug 06 04:53:33 symfony [info] {sfWebResponse} Send content (79198 o)
+Aug 06 04:53:33 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-text.png" (/).
+Aug 06 04:53:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Configuration 5.59 ms (6)
+Aug 06 04:53:33 symfony [info] {sfWebDebugLogger} Factories 46.10 ms (1)
+Aug 06 04:53:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:53:34 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-light-text.png" (/).
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Configuration 6.44 ms (6)
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Factories 41.17 ms (1)
+Aug 06 04:53:34 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:34 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Configuration 5.21 ms (6)
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Factories 181.47 ms (1)
+Aug 06 04:53:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:53:34 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:34 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Configuration 7.63 ms (6)
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Factories 123.34 ms (1)
+Aug 06 04:53:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:53:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:53:34 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:34 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Configuration 19.54 ms (6)
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Factories 233.89 ms (1)
+Aug 06 04:53:34 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:34 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Configuration 26.19 ms (6)
+Aug 06 04:53:34 symfony [info] {sfWebDebugLogger} Factories 137.80 ms (1)
+Aug 06 04:53:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:53:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:53:35 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:35 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Configuration 6.97 ms (6)
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Factories 97.42 ms (1)
+Aug 06 04:53:35 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:35 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:53:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Configuration 6.66 ms (6)
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Factories 277.62 ms (1)
+Aug 06 04:53:35 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:35 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Configuration 57.06 ms (6)
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Factories 217.06 ms (1)
+Aug 06 04:53:35 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:35 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Configuration 62.31 ms (6)
+Aug 06 04:53:35 symfony [info] {sfWebDebugLogger} Factories 151.82 ms (1)
+Aug 06 04:53:38 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/checkList/index.html" (/).
+Aug 06 04:53:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:38 symfony [info] {sfWebDebugLogger} Configuration 5.25 ms (6)
+Aug 06 04:53:38 symfony [info] {sfWebDebugLogger} Factories 29.55 ms (1)
+Aug 06 04:53:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:53:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:53:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:53:39 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:53:39 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:53:39 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:53:39 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:39 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:53:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:53:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:39 symfony [info] {sfWebDebugLogger} Configuration 9.35 ms (10)
+Aug 06 04:53:39 symfony [info] {sfWebDebugLogger} Factories 29.70 ms (1)
+Aug 06 04:53:39 symfony [info] {sfWebDebugLogger} Action "checkList/new" 22.07 ms (1)
+Aug 06 04:53:39 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 27.51 ms (1)
+Aug 06 04:53:39 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.23 ms (1)
+Aug 06 04:53:39 symfony [info] {sfWebResponse} Send content (79166 o)
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-light-text.png" (/).
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 5.77 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 42.43 ms (1)
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/logo-text.png" (/).
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 6.26 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 102.20 ms (1)
+Aug 06 04:53:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '1.jpg',)
+Aug 06 04:53:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '2.jpg',)
+Aug 06 04:53:40 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 5.68 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 188.10 ms (1)
+Aug 06 04:53:40 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 6.13 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 155.99 ms (1)
+Aug 06 04:53:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '3.jpg',)
+Aug 06 04:53:40 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 9.61 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 270.63 ms (1)
+Aug 06 04:53:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/4.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => '4.jpg',)
+Aug 06 04:53:40 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 61.49 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 156.73 ms (1)
+Aug 06 04:53:40 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img1.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img1.jpg',)
+Aug 06 04:53:40 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:40 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Configuration 12.20 ms (6)
+Aug 06 04:53:40 symfony [info] {sfWebDebugLogger} Factories 41.32 ms (1)
+Aug 06 04:53:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img2.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img2.jpg',)
+Aug 06 04:53:41 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:41 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Configuration 5.46 ms (6)
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Factories 61.02 ms (1)
+Aug 06 04:53:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/users/profile.png with parameters array (  'module' => 'assets',  'action' => 'images',  'users' => 'profile.png',)
+Aug 06 04:53:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /assets/images/big/img3.jpg with parameters array (  'module' => 'assets',  'action' => 'images',  'big' => 'img3.jpg',)
+Aug 06 04:53:41 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:41 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Configuration 5.37 ms (6)
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Factories 88.86 ms (1)
+Aug 06 04:53:41 symfony [info] {sfFrontWebController} Action "assets/images" does not exist
+Aug 06 04:53:41 symfony [err] {sfError404Exception} Action "assets/images" does not exist.
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:53:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Configuration 5.57 ms (6)
+Aug 06 04:53:41 symfony [info] {sfWebDebugLogger} Factories 228.48 ms (1)
+Aug 06 04:54:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:54:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:54:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:54:16 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:54:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:54:16 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:54:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:54:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:54:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:54:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:54:16 symfony [info] {sfWebDebugLogger} Configuration 8.39 ms (10)
+Aug 06 04:54:16 symfony [info] {sfWebDebugLogger} Factories 31.03 ms (1)
+Aug 06 04:54:16 symfony [info] {sfWebDebugLogger} Action "checkList/new" 25.45 ms (1)
+Aug 06 04:54:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 28.53 ms (1)
+Aug 06 04:54:16 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.07 ms (1)
+Aug 06 04:54:16 symfony [info] {sfWebResponse} Send content (79103 o)
+Aug 06 04:55:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:55:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:55:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:55:09 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:55:09 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:55:09 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:55:09 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:55:09 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:55:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:55:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:55:09 symfony [info] {sfWebDebugLogger} Configuration 8.85 ms (10)
+Aug 06 04:55:09 symfony [info] {sfWebDebugLogger} Factories 28.98 ms (1)
+Aug 06 04:55:09 symfony [info] {sfWebDebugLogger} Action "checkList/new" 25.33 ms (1)
+Aug 06 04:55:09 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 25.96 ms (1)
+Aug 06 04:55:09 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 11.16 ms (1)
+Aug 06 04:55:09 symfony [info] {sfWebResponse} Send content (79104 o)
+Aug 06 04:55:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/checkList/index.html" (/).
+Aug 06 04:55:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 04:55:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:55:16 symfony [info] {sfWebDebugLogger} Configuration 6.41 ms (6)
+Aug 06 04:55:16 symfony [info] {sfWebDebugLogger} Factories 30.22 ms (1)
+Aug 06 04:55:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:55:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:55:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:55:18 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:55:18 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:55:18 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:55:18 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:55:18 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:55:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:55:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:55:18 symfony [info] {sfWebDebugLogger} Configuration 9.79 ms (10)
+Aug 06 04:55:18 symfony [info] {sfWebDebugLogger} Factories 29.45 ms (1)
+Aug 06 04:55:18 symfony [info] {sfWebDebugLogger} Action "checkList/new" 25.12 ms (1)
+Aug 06 04:55:18 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 28.78 ms (1)
+Aug 06 04:55:18 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 10.93 ms (1)
+Aug 06 04:55:18 symfony [info] {sfWebResponse} Send content (79072 o)
+Aug 06 04:57:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:57:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:57:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:57:26 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:57:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:57:26 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:57:26 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:57:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:57:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:57:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:57:26 symfony [info] {sfWebDebugLogger} Configuration 14.68 ms (10)
+Aug 06 04:57:26 symfony [info] {sfWebDebugLogger} Factories 36.65 ms (1)
+Aug 06 04:57:26 symfony [info] {sfWebDebugLogger} Action "checkList/new" 26.66 ms (1)
+Aug 06 04:57:26 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 24.27 ms (1)
+Aug 06 04:57:26 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 10.83 ms (1)
+Aug 06 04:57:26 symfony [info] {sfWebResponse} Send content (79105 o)
+Aug 06 04:57:52 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:57:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:57:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:57:53 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:57:53 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:57:53 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:57:53 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:57:53 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:57:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:57:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:57:53 symfony [info] {sfWebDebugLogger} Configuration 17.61 ms (10)
+Aug 06 04:57:53 symfony [info] {sfWebDebugLogger} Factories 40.33 ms (1)
+Aug 06 04:57:53 symfony [info] {sfWebDebugLogger} Action "checkList/new" 27.13 ms (1)
+Aug 06 04:57:53 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 31.58 ms (1)
+Aug 06 04:57:53 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.33 ms (1)
+Aug 06 04:57:53 symfony [info] {sfWebResponse} Send content (79104 o)
+Aug 06 04:58:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:58:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:58:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:58:08 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:58:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:58:08 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:58:08 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:58:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:58:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:58:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:58:08 symfony [info] {sfWebDebugLogger} Configuration 14.98 ms (10)
+Aug 06 04:58:08 symfony [info] {sfWebDebugLogger} Factories 31.09 ms (1)
+Aug 06 04:58:08 symfony [info] {sfWebDebugLogger} Action "checkList/new" 23.80 ms (1)
+Aug 06 04:58:08 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 32.93 ms (1)
+Aug 06 04:58:08 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.98 ms (1)
+Aug 06 04:58:08 symfony [info] {sfWebResponse} Send content (79105 o)
+Aug 06 04:58:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 04:58:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 04:58:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 04:58:16 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 04:58:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 04:58:16 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 04:58:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:58:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 04:58:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 04:58:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 04:58:16 symfony [info] {sfWebDebugLogger} Configuration 11.90 ms (10)
+Aug 06 04:58:16 symfony [info] {sfWebDebugLogger} Factories 56.27 ms (1)
+Aug 06 04:58:16 symfony [info] {sfWebDebugLogger} Action "checkList/new" 31.25 ms (1)
+Aug 06 04:58:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 28.67 ms (1)
+Aug 06 04:58:16 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.26 ms (1)
+Aug 06 04:58:16 symfony [info] {sfWebResponse} Send content (79073 o)
+Aug 06 05:01:14 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/checkList/pages-profile.html" (/).
+Aug 06 05:01:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 06 05:01:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:01:14 symfony [info] {sfWebDebugLogger} Configuration 5.27 ms (6)
+Aug 06 05:01:14 symfony [info] {sfWebDebugLogger} Factories 37.62 ms (1)
+Aug 06 05:01:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:01:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:01:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:01:16 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:01:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:01:16 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:01:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:01:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:01:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:01:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:01:16 symfony [info] {sfWebDebugLogger} Configuration 8.67 ms (10)
+Aug 06 05:01:16 symfony [info] {sfWebDebugLogger} Factories 26.64 ms (1)
+Aug 06 05:01:16 symfony [info] {sfWebDebugLogger} Action "checkList/new" 26.83 ms (1)
+Aug 06 05:01:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 25.04 ms (1)
+Aug 06 05:01:16 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.86 ms (1)
+Aug 06 05:01:16 symfony [info] {sfWebResponse} Send content (79072 o)
+Aug 06 05:01:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:01:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:01:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:01:27 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:01:27 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:01:27 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:01:27 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:01:27 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:01:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:01:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:01:27 symfony [info] {sfWebDebugLogger} Configuration 7.77 ms (10)
+Aug 06 05:01:27 symfony [info] {sfWebDebugLogger} Factories 44.48 ms (1)
+Aug 06 05:01:27 symfony [info] {sfWebDebugLogger} Action "checkList/new" 31.72 ms (1)
+Aug 06 05:01:27 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 29.45 ms (1)
+Aug 06 05:01:27 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 14.50 ms (1)
+Aug 06 05:01:27 symfony [info] {sfWebResponse} Send content (79072 o)
+Aug 06 05:04:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:04:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:04:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:04:32 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:04:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:04:32 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:04:32 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:04:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:04:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:04:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:04:32 symfony [info] {sfWebDebugLogger} Configuration 10.42 ms (10)
+Aug 06 05:04:32 symfony [info] {sfWebDebugLogger} Factories 32.10 ms (1)
+Aug 06 05:04:32 symfony [info] {sfWebDebugLogger} Action "checkList/new" 31.08 ms (1)
+Aug 06 05:04:32 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 30.88 ms (1)
+Aug 06 05:04:32 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 14.83 ms (1)
+Aug 06 05:04:32 symfony [info] {sfWebResponse} Send content (79105 o)
+Aug 06 05:09:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:09:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:09:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:09:32 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:09:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:09:32 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:09:32 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:09:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:09:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:09:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:09:32 symfony [info] {sfWebDebugLogger} Configuration 11.31 ms (10)
+Aug 06 05:09:32 symfony [info] {sfWebDebugLogger} Factories 37.99 ms (1)
+Aug 06 05:09:32 symfony [info] {sfWebDebugLogger} Action "checkList/new" 34.19 ms (1)
+Aug 06 05:09:32 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 33.47 ms (1)
+Aug 06 05:09:32 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 15.05 ms (1)
+Aug 06 05:09:32 symfony [info] {sfWebResponse} Send content (77344 o)
+Aug 06 05:12:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:12:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:12:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:12:22 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:12:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:12:22 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:12:22 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:12:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:12:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:12:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:12:22 symfony [info] {sfWebDebugLogger} Configuration 15.20 ms (10)
+Aug 06 05:12:22 symfony [info] {sfWebDebugLogger} Factories 40.46 ms (1)
+Aug 06 05:12:22 symfony [info] {sfWebDebugLogger} Action "checkList/new" 33.13 ms (1)
+Aug 06 05:12:22 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 31.39 ms (1)
+Aug 06 05:12:22 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 14.99 ms (1)
+Aug 06 05:12:22 symfony [info] {sfWebResponse} Send content (68770 o)
+Aug 06 05:12:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:12:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:12:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:12:30 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:12:30 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:12:30 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:12:30 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:12:31 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:12:31 symfony [info] {sfWebDebugLogger} Configuration 9.06 ms (10)
+Aug 06 05:12:31 symfony [info] {sfWebDebugLogger} Factories 67.47 ms (1)
+Aug 06 05:12:31 symfony [info] {sfWebDebugLogger} Action "checkList/new" 42.51 ms (1)
+Aug 06 05:12:31 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 31.17 ms (1)
+Aug 06 05:12:31 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.48 ms (1)
+Aug 06 05:12:31 symfony [info] {sfWebResponse} Send content (68736 o)
+Aug 06 05:14:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:14:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:14:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:14:00 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:14:00 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:14:00 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:14:00 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:14:00 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:14:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:14:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:14:00 symfony [info] {sfWebDebugLogger} Configuration 8.81 ms (10)
+Aug 06 05:14:00 symfony [info] {sfWebDebugLogger} Factories 35.60 ms (1)
+Aug 06 05:14:00 symfony [info] {sfWebDebugLogger} Action "checkList/new" 27.96 ms (1)
+Aug 06 05:14:00 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 31.00 ms (1)
+Aug 06 05:14:00 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 10.83 ms (1)
+Aug 06 05:14:00 symfony [info] {sfWebResponse} Send content (59033 o)
+Aug 06 05:17:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:17:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:17:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:17:22 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:17:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:17:22 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:17:22 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:17:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:17:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:17:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:17:22 symfony [info] {sfWebDebugLogger} Configuration 14.47 ms (10)
+Aug 06 05:17:22 symfony [info] {sfWebDebugLogger} Factories 36.32 ms (1)
+Aug 06 05:17:22 symfony [info] {sfWebDebugLogger} Action "checkList/new" 29.22 ms (1)
+Aug 06 05:17:22 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 35.09 ms (1)
+Aug 06 05:17:22 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 16.42 ms (1)
+Aug 06 05:17:22 symfony [info] {sfWebResponse} Send content (58865 o)
+Aug 06 05:24:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:24:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:24:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:24:50 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:24:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:24:50 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:24:50 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:24:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:24:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:24:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:24:50 symfony [info] {sfWebDebugLogger} Configuration 9.13 ms (10)
+Aug 06 05:24:50 symfony [info] {sfWebDebugLogger} Factories 30.31 ms (1)
+Aug 06 05:24:50 symfony [info] {sfWebDebugLogger} Action "checkList/new" 28.70 ms (1)
+Aug 06 05:24:50 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 28.97 ms (1)
+Aug 06 05:24:50 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 11.02 ms (1)
+Aug 06 05:24:50 symfony [info] {sfWebResponse} Send content (59377 o)
+Aug 06 05:24:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:24:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:24:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:24:56 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:24:56 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:24:56 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:24:56 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:24:56 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:24:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:24:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:24:56 symfony [info] {sfWebDebugLogger} Configuration 17.86 ms (10)
+Aug 06 05:24:56 symfony [info] {sfWebDebugLogger} Factories 46.30 ms (1)
+Aug 06 05:24:56 symfony [info] {sfWebDebugLogger} Action "checkList/new" 31.46 ms (1)
+Aug 06 05:24:56 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 26.40 ms (1)
+Aug 06 05:24:56 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 13.88 ms (1)
+Aug 06 05:24:56 symfony [info] {sfWebResponse} Send content (59347 o)
+Aug 06 05:26:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:26:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:26:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:26:44 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:26:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:26:44 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:26:44 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:26:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:26:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:26:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:26:44 symfony [info] {sfWebDebugLogger} Configuration 7.32 ms (10)
+Aug 06 05:26:44 symfony [info] {sfWebDebugLogger} Factories 31.69 ms (1)
+Aug 06 05:26:44 symfony [info] {sfWebDebugLogger} Action "checkList/new" 28.03 ms (1)
+Aug 06 05:26:44 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 30.57 ms (1)
+Aug 06 05:26:44 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.43 ms (1)
+Aug 06 05:26:44 symfony [info] {sfWebResponse} Send content (59376 o)
+Aug 06 05:29:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:29:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:29:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:29:45 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:29:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:29:45 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:29:45 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:29:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:29:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:29:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:29:45 symfony [info] {sfWebDebugLogger} Configuration 8.60 ms (10)
+Aug 06 05:29:45 symfony [info] {sfWebDebugLogger} Factories 34.30 ms (1)
+Aug 06 05:29:45 symfony [info] {sfWebDebugLogger} Action "checkList/new" 35.33 ms (1)
+Aug 06 05:29:45 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 30.24 ms (1)
+Aug 06 05:29:45 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 11.49 ms (1)
+Aug 06 05:29:45 symfony [info] {sfWebResponse} Send content (59379 o)
+Aug 06 05:30:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:30:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:30:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:30:08 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:30:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:30:08 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:30:08 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:30:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:30:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:30:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:30:08 symfony [info] {sfWebDebugLogger} Configuration 9.49 ms (10)
+Aug 06 05:30:08 symfony [info] {sfWebDebugLogger} Factories 36.62 ms (1)
+Aug 06 05:30:08 symfony [info] {sfWebDebugLogger} Action "checkList/new" 26.70 ms (1)
+Aug 06 05:30:08 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 29.38 ms (1)
+Aug 06 05:30:08 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 14.22 ms (1)
+Aug 06 05:30:08 symfony [info] {sfWebResponse} Send content (59369 o)
+Aug 06 05:30:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:30:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:30:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:30:45 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:30:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:30:45 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:30:45 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:30:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:30:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:30:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:30:45 symfony [info] {sfWebDebugLogger} Configuration 10.47 ms (10)
+Aug 06 05:30:45 symfony [info] {sfWebDebugLogger} Factories 34.46 ms (1)
+Aug 06 05:30:45 symfony [info] {sfWebDebugLogger} Action "checkList/new" 32.84 ms (1)
+Aug 06 05:30:45 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 29.97 ms (1)
+Aug 06 05:30:45 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.94 ms (1)
+Aug 06 05:30:45 symfony [info] {sfWebResponse} Send content (59350 o)
+Aug 06 05:33:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 06 05:33:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 06 05:33:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 06 05:33:14 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 06 05:33:14 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 06 05:33:14 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 06 05:33:14 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:33:14 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 06 05:33:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 06 05:33:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Configuration 7.26 ms (10)
+Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Factories 37.07 ms (1)
+Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Action "checkList/new" 32.76 ms (1)
+Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 30.15 ms (1)
+Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.99 ms (1)
+Aug 06 05:33:14 symfony [info] {sfWebResponse} Send content (59317 o)

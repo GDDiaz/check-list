@@ -1,0 +1,17 @@
+{
+    "name": "equipo/check-list",
+    "description": "Lista de chequeo proyecto  para semillero",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jdiaz",
+            "email": "jdiaz@tiqal.com"
+        }
+    ],
+    "require": {
+        "lexpress/symfony1": "1.5.*",
+        "lexpress/doctrine1": "^1.3",
+        "psr/log": "^1.1"
+    }
+}
