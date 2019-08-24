@@ -1922,3 +1922,129 @@ Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Action "checkList/new" 32.76 m
 Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 30.15 ms (1)
 Aug 06 05:33:14 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 12.99 ms (1)
 Aug 06 05:33:14 symfony [info] {sfWebResponse} Send content (59317 o)
+Aug 24 05:53:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 05:53:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 05:53:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 05:53:03 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 05:53:04 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 05:53:04 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 05:53:04 symfony [crit] {InvalidArgumentException} Widget "description" does not exist.
+Aug 24 05:53:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 24 05:53:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 05:53:04 symfony [info] {sfWebDebugLogger} Configuration 1711.12 ms (10)
+Aug 24 05:53:04 symfony [info] {sfWebDebugLogger} Factories 1257.66 ms (1)
+Aug 24 05:53:04 symfony [info] {sfWebDebugLogger} Action "checkList/new" 23.81 ms (1)
+Aug 24 05:53:04 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 230.79 ms (1)
+Aug 24 05:53:04 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 156.47 ms (1)
+Aug 24 05:53:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 05:53:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 05:53:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 05:53:21 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 05:53:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 05:53:21 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 05:53:21 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 05:53:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 05:53:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 05:53:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 05:53:21 symfony [info] {sfWebDebugLogger} Configuration 10.06 ms (10)
+Aug 24 05:53:21 symfony [info] {sfWebDebugLogger} Factories 30.79 ms (1)
+Aug 24 05:53:21 symfony [info] {sfWebDebugLogger} Action "checkList/new" 31.92 ms (1)
+Aug 24 05:53:21 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 49.40 ms (1)
+Aug 24 05:53:21 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 2.67 ms (1)
+Aug 24 05:53:21 symfony [info] {sfWebResponse} Send content (47811 o)
+Aug 24 06:17:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:17:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:17:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:17:47 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:17:47 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:17:47 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:17:47 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:17:47 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:17:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:17:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:17:47 symfony [info] {sfWebDebugLogger} Configuration 10.90 ms (10)
+Aug 24 06:17:47 symfony [info] {sfWebDebugLogger} Factories 33.50 ms (1)
+Aug 24 06:17:47 symfony [info] {sfWebDebugLogger} Action "checkList/new" 35.64 ms (1)
+Aug 24 06:17:47 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 20.87 ms (1)
+Aug 24 06:17:47 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 2.62 ms (1)
+Aug 24 06:17:47 symfony [info] {sfWebResponse} Send content (47664 o)
+Aug 24 06:19:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:19:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:19:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:19:41 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:19:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:19:41 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:19:41 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:19:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:19:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:19:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:19:41 symfony [info] {sfWebDebugLogger} Configuration 9.24 ms (10)
+Aug 24 06:19:41 symfony [info] {sfWebDebugLogger} Factories 33.95 ms (1)
+Aug 24 06:19:41 symfony [info] {sfWebDebugLogger} Action "checkList/new" 38.53 ms (1)
+Aug 24 06:19:41 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 19.86 ms (1)
+Aug 24 06:19:41 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 6.32 ms (1)
+Aug 24 06:19:41 symfony [info] {sfWebResponse} Send content (47716 o)
+Aug 24 06:20:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:20:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:20:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:20:05 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:20:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:20:05 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:20:05 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:20:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:20:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:20:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:20:05 symfony [info] {sfWebDebugLogger} Configuration 9.82 ms (10)
+Aug 24 06:20:05 symfony [info] {sfWebDebugLogger} Factories 32.72 ms (1)
+Aug 24 06:20:05 symfony [info] {sfWebDebugLogger} Action "checkList/new" 29.38 ms (1)
+Aug 24 06:20:05 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 18.33 ms (1)
+Aug 24 06:20:05 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 2.32 ms (1)
+Aug 24 06:20:05 symfony [info] {sfWebResponse} Send content (47687 o)
+Aug 24 06:20:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:20:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:20:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:20:31 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:20:31 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:20:31 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:20:31 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:20:31 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:20:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:20:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:20:31 symfony [info] {sfWebDebugLogger} Configuration 12.11 ms (10)
+Aug 24 06:20:31 symfony [info] {sfWebDebugLogger} Factories 30.54 ms (1)
+Aug 24 06:20:31 symfony [info] {sfWebDebugLogger} Action "checkList/new" 27.73 ms (1)
+Aug 24 06:20:31 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 17.62 ms (1)
+Aug 24 06:20:31 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 2.45 ms (1)
+Aug 24 06:20:31 symfony [info] {sfWebResponse} Send content (47695 o)
+Aug 24 06:21:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:21:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:21:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:21:17 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:21:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:21:17 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:21:17 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:21:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:21:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:21:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:21:17 symfony [info] {sfWebDebugLogger} Configuration 9.81 ms (10)
+Aug 24 06:21:17 symfony [info] {sfWebDebugLogger} Factories 34.26 ms (1)
+Aug 24 06:21:17 symfony [info] {sfWebDebugLogger} Action "checkList/new" 32.53 ms (1)
+Aug 24 06:21:17 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 19.93 ms (1)
+Aug 24 06:21:17 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 3.37 ms (1)
+Aug 24 06:21:17 symfony [info] {sfWebResponse} Send content (47691 o)
+Aug 24 06:21:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 24 06:21:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 24 06:21:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 24 06:21:49 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 24 06:21:49 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 24 06:21:49 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 24 06:21:49 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:21:49 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 24 06:21:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 24 06:21:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 24 06:21:49 symfony [info] {sfWebDebugLogger} Configuration 10.14 ms (10)
+Aug 24 06:21:49 symfony [info] {sfWebDebugLogger} Factories 32.16 ms (1)
+Aug 24 06:21:49 symfony [info] {sfWebDebugLogger} Action "checkList/new" 34.00 ms (1)
+Aug 24 06:21:49 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 16.42 ms (1)
+Aug 24 06:21:49 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 2.31 ms (1)
+Aug 24 06:21:49 symfony [info] {sfWebResponse} Send content (47717 o)
