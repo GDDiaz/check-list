@@ -1,6 +1,6 @@
 <h1>Check lists List</h1>
 
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Id</th>

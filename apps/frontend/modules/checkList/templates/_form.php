@@ -6,25 +6,46 @@
 <input type="hidden" name="sf_method" value="put" />
 <?php endif; ?>
   <div class="row">
-    <div class="col m6">
-    <?php echo $form['name']->renderLabel() ?>
+    <div class="col-md-12">
+      <ul class="error_list">
+        <?php foreach ($form->getGlobalErrors() as $name => $error): ?>
+          <li><?php echo $name.': '.$error ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+
+    <div class="form-group col-md-12 col-md-offset-3 <?php echo $form['name']->hasError() ? 'has-error': '' ?>">
       <?php echo $form['name'] ?>
-      <?php echo $form['name']->renderError() ?>
-      <?php echo $form['descriptor']->renderLabel() ?>
+      <span class="bar"></span>
+     <?php echo $form['name']->renderLabel() ?>
+    </div>
+
+    <div class="form-group col-md-12 <?php echo $form['descriptor']->hasError() ? 'has-error': '' ?>">
       <?php echo $form['descriptor'] ?>
-      <?php echo $form['descriptor']->renderError() ?>
-      <?php echo $form['prefix']->renderLabel() ?>
+      <span class="bar"></span>
+      <?php echo $form['descriptor']->renderLabel() ?>
+    </div>
+
+    <div class="form-group col-md-12 <?php echo $form['prefix']->hasError() ? 'has-error': '' ?>">
       <?php echo $form['prefix'] ?>
-      <?php echo $form['prefix']->renderError() ?>
+      <span class="bar"></span>
+      <?php echo $form['prefix']->renderLabel() ?>
     </div>
-    <div class="col m6">
+
+    <div class="form-group col-md-12 <?php echo $form['threshold']->hasError() ? 'has-error': '' ?>">
+     <?php echo $form['threshold'] ?>
+      <span class="bar"></span>
       <?php echo $form['threshold']->renderLabel() ?>
-      <?php echo $form['threshold'] ?>
-      <?php echo $form['threshold']->renderError() ?>
-      <?php echo $form['status']->renderLabel() ?>
-      <?php echo $form['status'] ?>
-      <?php echo $form['status']->renderError() ?>
     </div>
+
+      <div class="form-group col-md-12 <?php echo $form['status']->hasError() ? 'has-error': '' ?>">
+        <?php echo $form['status'] ?>
+        <span class="bar"></span>
+        <?php echo $form['status']->renderLabel() ?>
+      </div>
+      <div class="col-md-12">
+        <?php  echo $form->renderHiddenFields()?>
+      </div>
   </div>
   <div class="row">
     <div class="col m12">

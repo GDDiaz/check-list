@@ -16,7 +16,10 @@ class CheckListForm extends BaseCheckListForm
     $this->widgetSchema['descriptor'] = new sfWidgetFormTextarea(array(), array( 'class' => 'form-control'));
     $this->widgetSchema['prefix'] = new sfWidgetFormInputText(array(), array( 'class' => 'form-control'));
     $this->widgetSchema['threshold'] = new sfWidgetFormInputText(array(), array( 'class' => 'form-control'));
-    $this->widgetSchema['status'] = new sfWidgetFormTextarea(array(), array( 'class' => 'form-control'));
+    $this->widgetSchema['status'] = new sfWidgetFormChoice(
+      array(
+        'choices' => array('Active' => 'Activo', 'Inactive' => 'Inactivo'),
+      ), array( 'class' => 'form-control'));
 
     $this->useFields(['name', 'descriptor', 'prefix', 'threshold', 'status']);
   }

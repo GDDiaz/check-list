@@ -23,6 +23,7 @@
 
     <?php use_stylesheet('style.css')?>
     <?php use_stylesheet('pages/dashboard1.css')?>
+    <?php use_stylesheet('pages/floating-label.css')?>
     <?php use_stylesheet('colors/default-dark.css')?>
 
 
@@ -130,7 +131,7 @@
                             <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">Plantillas</span></a>
                         </li>
                         <li>
-                            <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-tasks"></i><span class="hide-menu">Listas de chequeo</span></a>
+                            <a class="waves-effect waves-dark" href="<?php echo url_for('checkList/index') ?>" aria-expanded="false"><i class="fa fa-tasks"></i><span class="hide-menu">Listas de chequeo</span></a>
                         </li>
                         <li>
                             <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-bar-chart-o"></i><span class="hide-menu">Informe</span></a>
@@ -164,9 +165,6 @@
                             <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                             <li class="breadcrumb-item active">Dashboard 1</li>
                         </ol>
-                    </div>
-                    <div class="">
-                        <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
                     </div>
                 </div>
                 <!-- ============================================================== -->
