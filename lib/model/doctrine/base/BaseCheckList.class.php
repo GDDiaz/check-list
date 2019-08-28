@@ -10,7 +10,7 @@
  * @property string                          $descriptor                           Type: clob
  * @property string                          $prefix                               Type: string(255)
  * @property int                             $threshold                            Type: integer
- * @property string                          $status                               Type: string
+ * @property string                          $status                               Type: string(255)
  * @property string                          $versionAt                            Type: string
  * @property Doctrine_Collection|Criteria[]  $Criteria                             
  *  
@@ -19,7 +19,7 @@
  * @method string                            getDescriptor()                       Type: clob
  * @method string                            getPrefix()                           Type: string(255)
  * @method int                               getThreshold()                        Type: integer
- * @method string                            getStatus()                           Type: string
+ * @method string                            getStatus()                           Type: string(255)
  * @method string                            getVersionat()                        Type: string
  * @method Doctrine_Collection|Criteria[]    getCriteria()                         
  *  
@@ -28,7 +28,7 @@
  * @method CheckList                         setDescriptor(string $val)            Type: clob
  * @method CheckList                         setPrefix(string $val)                Type: string(255)
  * @method CheckList                         setThreshold(int $val)                Type: integer
- * @method CheckList                         setStatus(string $val)                Type: string
+ * @method CheckList                         setStatus(string $val)                Type: string(255)
  * @method CheckList                         setVersionat(string $val)             Type: string
  * @method CheckList                         setCriteria(Doctrine_Collection $val) 
  *  
@@ -63,9 +63,10 @@ abstract class BaseCheckList extends sfDoctrineRecord
              'type' => 'integer',
              'notnull' => true,
              ));
-        $this->hasColumn('status', 'string', null, array(
+        $this->hasColumn('status', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
+             'length' => 255,
              ));
         $this->hasColumn('versionAt', 'string', null, array(
              'type' => 'string',
