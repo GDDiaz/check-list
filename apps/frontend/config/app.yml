@@ -3,3 +3,6 @@
 
 # default values
 #all:
+
+all:
+  max_per_page: 5

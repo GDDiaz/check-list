@@ -1,3 +1,4 @@
+
 <table>
   <tbody>
     <tr>
@@ -6,7 +7,7 @@
     </tr>
     <tr>
       <th>Name:</th>
-      <td><?php echo $check_list->getName() ?></td>
+      <td><?php echo $check_list->getNameWithPrefix() ?></td>
     </tr>
     <tr>
       <th>Descriptor:</th>

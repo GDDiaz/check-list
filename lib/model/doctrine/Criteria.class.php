@@ -13,5 +13,7 @@
  */
 class Criteria extends BaseCriteria
 {
-
+    public function getNameCustom() {
+        return $this->getCheckList()->getPrefix2()+ '-' +$this->getName();
+    }
 }

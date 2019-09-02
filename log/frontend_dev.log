@@ -3434,3 +3434,1135 @@ Aug 29 00:11:30 symfony [info] {sfWebDebugLogger} Action "checkList/index" 35.28
 Aug 29 00:11:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.96 ms (2)
 Aug 29 00:11:30 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 18.80 ms (1)
 Aug 29 00:11:30 symfony [info] {sfWebResponse} Send content (47499 o)
+Aug 29 16:43:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 16:43:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 16:43:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 16:43:49 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 16:43:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 16:43:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 16:43:51 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 16:43:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 16:43:52 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 16:43:52 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 16:43:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 16:43:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 16:43:52 symfony [info] {sfWebDebugLogger} Configuration 60.58 ms (10)
+Aug 29 16:43:52 symfony [info] {sfWebDebugLogger} Factories 1805.14 ms (1)
+Aug 29 16:43:52 symfony [info] {sfWebDebugLogger} Action "checkList/index" 2023.72 ms (1)
+Aug 29 16:43:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 306.58 ms (3)
+Aug 29 16:43:52 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 1235.25 ms (1)
+Aug 29 16:43:53 symfony [info] {sfWebResponse} Send content (49051 o)
+Aug 29 16:44:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 16:44:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 16:44:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 16:44:03 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 16:44:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 16:44:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 16:44:03 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 16:44:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Aug 29 16:44:03 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 16:44:03 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 16:44:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 16:44:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 16:44:03 symfony [info] {sfWebDebugLogger} Configuration 23.34 ms (10)
+Aug 29 16:44:03 symfony [info] {sfWebDebugLogger} Factories 48.54 ms (1)
+Aug 29 16:44:03 symfony [info] {sfWebDebugLogger} Action "checkList/index" 55.81 ms (1)
+Aug 29 16:44:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.51 ms (3)
+Aug 29 16:44:03 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 47.88 ms (1)
+Aug 29 16:44:03 symfony [info] {sfWebResponse} Send content (49448 o)
+Aug 29 17:23:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 17:23:05 symfony [info] {myUser} Automatic user logout due to timeout
+Aug 29 17:23:05 symfony [info] {myUser} User is not authenticated
+Aug 29 17:23:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 17:23:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 17:23:05 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 17:23:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 17:23:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 17:23:06 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 17:23:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 17:23:06 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 17:23:06 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 17:23:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 17:23:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 17:23:06 symfony [info] {sfWebDebugLogger} Configuration 6.76 ms (10)
+Aug 29 17:23:06 symfony [info] {sfWebDebugLogger} Factories 20.15 ms (1)
+Aug 29 17:23:06 symfony [info] {sfWebDebugLogger} Action "checkList/index" 56.91 ms (1)
+Aug 29 17:23:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.32 ms (3)
+Aug 29 17:23:06 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 49.40 ms (1)
+Aug 29 17:23:06 symfony [info] {sfWebResponse} Send content (50166 o)
+Aug 29 19:10:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:10:45 symfony [info] {myUser} Automatic user logout due to timeout
+Aug 29 19:10:45 symfony [info] {myUser} User is not authenticated
+Aug 29 19:10:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:10:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:10:45 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:10:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:10:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:10:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:10:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix2 AS c__prefix2, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 19:10:46 symfony [crit] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.prefix2' in 'field list'. Failing Query: "SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix2 AS c__prefix2, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1"
+Aug 29 19:10:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 29 19:10:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:10:46 symfony [info] {sfWebDebugLogger} Configuration 11.21 ms (10)
+Aug 29 19:10:46 symfony [info] {sfWebDebugLogger} Factories 714.17 ms (1)
+Aug 29 19:10:46 symfony [info] {sfWebDebugLogger} Action "checkList/index" 236.32 ms (1)
+Aug 29 19:10:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.87 ms (2)
+Aug 29 19:10:46 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 604.33 ms (1)
+Aug 29 19:11:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:11:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:11:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:11:38 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:11:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:11:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:11:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:11:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 19:11:38 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:11:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:11:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:11:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:11:38 symfony [info] {sfWebDebugLogger} Configuration 12.33 ms (10)
+Aug 29 19:11:38 symfony [info] {sfWebDebugLogger} Factories 29.43 ms (1)
+Aug 29 19:11:38 symfony [info] {sfWebDebugLogger} Action "checkList/index" 31.87 ms (1)
+Aug 29 19:11:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.72 ms (3)
+Aug 29 19:11:38 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 227.80 ms (1)
+Aug 29 19:11:38 symfony [info] {sfWebResponse} Send content (49368 o)
+Aug 29 19:33:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/index with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:33:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:33:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:33:50 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:33:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:33:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:33:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 19:33:50 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:33:50 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:33:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:33:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:33:50 symfony [info] {sfWebDebugLogger} Configuration 7.58 ms (10)
+Aug 29 19:33:50 symfony [info] {sfWebDebugLogger} Factories 21.15 ms (1)
+Aug 29 19:33:50 symfony [info] {sfWebDebugLogger} Action "checkList/index" 31.71 ms (1)
+Aug 29 19:33:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.96 ms (3)
+Aug 29 19:33:50 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.83 ms (1)
+Aug 29 19:33:50 symfony [info] {sfWebResponse} Send content (49351 o)
+Aug 29 19:33:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:33:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:33:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:33:56 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:33:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:33:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:33:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:33:57 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:33:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:33:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:33:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:33:57 symfony [info] {sfWebDebugLogger} Configuration 11.74 ms (10)
+Aug 29 19:33:57 symfony [info] {sfWebDebugLogger} Factories 21.30 ms (1)
+Aug 29 19:33:57 symfony [info] {sfWebDebugLogger} Action "checkList/show" 245.29 ms (1)
+Aug 29 19:33:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 21.86 ms (2)
+Aug 29 19:33:57 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 52.63 ms (1)
+Aug 29 19:33:57 symfony [info] {sfWebResponse} Send content (47806 o)
+Aug 29 19:37:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:37:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:37:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:37:01 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:37:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:37:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:37:01 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "checkList/show".
+Aug 29 19:37:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 29 19:37:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:37:01 symfony [info] {sfWebDebugLogger} Configuration 6.54 ms (9)
+Aug 29 19:37:01 symfony [info] {sfWebDebugLogger} Factories 19.48 ms (1)
+Aug 29 19:37:01 symfony [info] {sfWebDebugLogger} Action "checkList/show" 80.24 ms (1)
+Aug 29 19:37:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.66 ms (2)
+Aug 29 19:39:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:39:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:39:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:39:12 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:39:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:39:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:39:12 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:39:12 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:39:12 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:39:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:39:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:39:12 symfony [info] {sfWebDebugLogger} Configuration 9.66 ms (10)
+Aug 29 19:39:12 symfony [info] {sfWebDebugLogger} Factories 23.28 ms (1)
+Aug 29 19:39:12 symfony [info] {sfWebDebugLogger} Action "checkList/show" 38.25 ms (1)
+Aug 29 19:39:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.65 ms (2)
+Aug 29 19:39:12 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 15.48 ms (1)
+Aug 29 19:39:12 symfony [info] {sfWebResponse} Send content (47935 o)
+Aug 29 19:42:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:42:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:42:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:42:32 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:42:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:42:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:42:32 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO check_list (name, descriptor, prefix, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (lista creada desde una accion, descrip, EJ, Active, 2019-08-29 19:42:32, 2019-08-29 19:42:32)
+Aug 29 19:42:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:42:33 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:42:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:42:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:42:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:42:33 symfony [info] {sfWebDebugLogger} Configuration 10.02 ms (10)
+Aug 29 19:42:33 symfony [info] {sfWebDebugLogger} Factories 22.34 ms (1)
+Aug 29 19:42:33 symfony [info] {sfWebDebugLogger} Action "checkList/show" 409.78 ms (1)
+Aug 29 19:42:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.08 ms (3)
+Aug 29 19:42:33 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 29.30 ms (1)
+Aug 29 19:42:33 symfony [info] {sfWebResponse} Send content (49094 o)
+Aug 29 19:44:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:44:06 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:44:06 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "checkList/show".
+Aug 29 19:44:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Aug 29 19:44:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:44:06 symfony [info] {sfWebDebugLogger} Configuration 8.14 ms (9)
+Aug 29 19:44:06 symfony [info] {sfWebDebugLogger} Factories 20.77 ms (1)
+Aug 29 19:44:06 symfony [info] {sfWebDebugLogger} Action "checkList/show" 27.36 ms (1)
+Aug 29 19:44:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:44:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:44:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:44:33 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:44:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:44:33 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO check_list (name, descriptor, prefix, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (lista creada desde una accion 2, descrip, EJ, Active, 2019-08-29 19:44:33, 2019-08-29 19:44:33)
+Aug 29 19:44:34 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:45:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:45:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:45:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:45:20 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:45:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:45:20 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO check_list (name, descriptor, prefix, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (lista creada desde una accion 2, descrip, EJ, Active, 2019-08-29 19:45:20, 2019-08-29 19:45:20)
+Aug 29 19:45:20 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:45:20 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:45:20 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:45:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:45:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:45:20 symfony [info] {sfWebDebugLogger} Configuration 10.14 ms (10)
+Aug 29 19:45:20 symfony [info] {sfWebDebugLogger} Factories 20.47 ms (1)
+Aug 29 19:45:20 symfony [info] {sfWebDebugLogger} Action "checkList/show" 150.32 ms (1)
+Aug 29 19:45:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.04 ms (2)
+Aug 29 19:45:20 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 45.11 ms (1)
+Aug 29 19:45:20 symfony [info] {sfWebResponse} Send content (46849 o)
+Aug 29 19:45:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:45:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:45:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:45:57 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:45:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:45:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:45:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:45:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Aug 29 19:45:57 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:45:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:45:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:45:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:45:57 symfony [info] {sfWebDebugLogger} Configuration 6.85 ms (10)
+Aug 29 19:45:57 symfony [info] {sfWebDebugLogger} Factories 19.27 ms (1)
+Aug 29 19:45:57 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.50 ms (1)
+Aug 29 19:45:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.86 ms (3)
+Aug 29 19:45:57 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.61 ms (1)
+Aug 29 19:45:57 symfony [info] {sfWebResponse} Send content (49850 o)
+Aug 29 19:46:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:46:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:46:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:46:00 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:46:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:46:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:46:00 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:46:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Aug 29 19:46:00 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:00 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:46:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:46:00 symfony [info] {sfWebDebugLogger} Configuration 8.81 ms (10)
+Aug 29 19:46:00 symfony [info] {sfWebDebugLogger} Factories 19.94 ms (1)
+Aug 29 19:46:00 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.76 ms (1)
+Aug 29 19:46:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.86 ms (3)
+Aug 29 19:46:00 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.14 ms (1)
+Aug 29 19:46:00 symfony [info] {sfWebResponse} Send content (49887 o)
+Aug 29 19:46:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/new with parameters array (  'module' => 'checkList',  'action' => 'new',)
+Aug 29 19:46:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:46:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:46:03 symfony [info] {checkListActions} Call "checkListActions->executeNew()"
+Aug 29 19:46:03 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newSuccess.php"
+Aug 29 19:46:03 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 29 19:46:04 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:04 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:46:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:46:04 symfony [info] {sfWebDebugLogger} Configuration 6.36 ms (10)
+Aug 29 19:46:04 symfony [info] {sfWebDebugLogger} Factories 19.93 ms (1)
+Aug 29 19:46:04 symfony [info] {sfWebDebugLogger} Action "checkList/new" 515.00 ms (1)
+Aug 29 19:46:04 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/new" 157.39 ms (1)
+Aug 29 19:46:04 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 108.39 ms (1)
+Aug 29 19:46:04 symfony [info] {sfWebResponse} Send content (49931 o)
+Aug 29 19:46:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:46:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:46:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:46:17 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:46:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:46:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Aug 29 19:46:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:46:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Aug 29 19:46:17 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:46:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:46:17 symfony [info] {sfWebDebugLogger} Configuration 7.13 ms (10)
+Aug 29 19:46:17 symfony [info] {sfWebDebugLogger} Factories 19.82 ms (1)
+Aug 29 19:46:17 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.72 ms (1)
+Aug 29 19:46:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.08 ms (3)
+Aug 29 19:46:17 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 26.85 ms (1)
+Aug 29 19:46:17 symfony [info] {sfWebResponse} Send content (49887 o)
+Aug 29 19:46:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/2 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '2',)
+Aug 29 19:46:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:46:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:46:23 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:46:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:46:23 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO check_list (name, descriptor, prefix, status, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (lista creada desde una accion 2, descrip, EJ, Active, 2019-08-29 19:46:23, 2019-08-29 19:46:23)
+Aug 29 19:46:23 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:46:23 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:23 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:46:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:46:23 symfony [info] {sfWebDebugLogger} Configuration 10.41 ms (10)
+Aug 29 19:46:23 symfony [info] {sfWebDebugLogger} Factories 20.32 ms (1)
+Aug 29 19:46:23 symfony [info] {sfWebDebugLogger} Action "checkList/show" 155.69 ms (1)
+Aug 29 19:46:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.70 ms (2)
+Aug 29 19:46:23 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 52.39 ms (1)
+Aug 29 19:46:23 symfony [info] {sfWebResponse} Send content (46935 o)
+Aug 29 19:46:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/edit/id/6 with parameters array (  'module' => 'checkList',  'action' => 'edit',  'id' => '6',)
+Aug 29 19:46:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:46:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:46:26 symfony [info] {checkListActions} Call "checkListActions->executeEdit()"
+Aug 29 19:46:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:46:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (6)
+Aug 29 19:46:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/editSuccess.php"
+Aug 29 19:46:26 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 29 19:46:26 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:46:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:46:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} Configuration 8.76 ms (10)
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} Factories 19.55 ms (1)
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} Action "checkList/edit" 57.07 ms (1)
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.53 ms (2)
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/edit" 154.50 ms (1)
+Aug 29 19:46:26 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 18.19 ms (1)
+Aug 29 19:46:26 symfony [info] {sfWebResponse} Send content (54434 o)
+Aug 29 19:50:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriteria with parameters array (  'module' => 'checkList',  'action' => 'newCriteria',)
+Aug 29 19:50:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:50:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:50:13 symfony [info] {checkListActions} Call "checkListActions->executeNewCriteria()"
+Aug 29 19:50:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriteriaSuccess.php"
+Aug 29 19:50:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:50:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Aug 29 19:50:13 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:50:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:50:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:50:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:50:13 symfony [info] {sfWebDebugLogger} Configuration 8.69 ms (10)
+Aug 29 19:50:13 symfony [info] {sfWebDebugLogger} Factories 21.17 ms (1)
+Aug 29 19:50:13 symfony [info] {sfWebDebugLogger} Action "checkList/newCriteria" 20.98 ms (1)
+Aug 29 19:50:13 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriteria" 211.38 ms (1)
+Aug 29 19:50:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Aug 29 19:50:13 symfony [info] {sfWebResponse} Send content (58941 o)
+Aug 29 19:51:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/edit/id/6 with parameters array (  'module' => 'checkList',  'action' => 'edit',  'id' => '6',)
+Aug 29 19:51:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:51:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:51:51 symfony [info] {checkListActions} Call "checkListActions->executeEdit()"
+Aug 29 19:51:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:51:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (6)
+Aug 29 19:51:51 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/editSuccess.php"
+Aug 29 19:51:51 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Aug 29 19:51:51 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:51:51 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:51:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:51:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} Configuration 7.23 ms (10)
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} Factories 20.27 ms (1)
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} Action "checkList/edit" 47.63 ms (1)
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.56 ms (2)
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/edit" 18.93 ms (1)
+Aug 29 19:51:51 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 6.53 ms (1)
+Aug 29 19:51:51 symfony [info] {sfWebResponse} Send content (54433 o)
+Aug 29 19:55:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 19:55:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:55:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:55:38 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 19:55:38 symfony [warning] {sfWebDebugLogger}  Warning at D:\semillero\check-list\vendor\lexpress\symfony1\lib\request\sfRequest.class.php on line 279 (Missing argument 1 for sfRequest::getParameter(), called in D:\semillero\check-list\apps\frontend\modules\checkList\actions\actions.class.php on line 19 and defined)
+Aug 29 19:55:38 symfony [notice] {sfWebDebugLogger}  Notice at D:\semillero\check-list\vendor\lexpress\symfony1\lib\request\sfRequest.class.php on line 281 (Undefined variable: name)
+Aug 29 19:55:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 19:55:38 symfony [notice] {sfWebDebugLogger}  Notice at D:\semillero\check-list\apps\frontend\modules\checkList\templates\indexSuccess.php on line 18 (Undefined variable: pager)
+Aug 29 19:55:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:55:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:55:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:55:55 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:55:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:55:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:55:55 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:55:55 symfony [notice] {sfWebDebugLogger}  Notice at D:\semillero\check-list\apps\frontend\modules\checkList\templates\showSuccess.php on line 1 (Undefined variable: title)
+Aug 29 19:55:55 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:55:55 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:55:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:55:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:55:55 symfony [info] {sfWebDebugLogger} Configuration 7.27 ms (10)
+Aug 29 19:55:55 symfony [info] {sfWebDebugLogger} Factories 22.72 ms (1)
+Aug 29 19:55:55 symfony [info] {sfWebDebugLogger} Action "checkList/show" 36.33 ms (1)
+Aug 29 19:55:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (2)
+Aug 29 19:55:55 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 17.33 ms (1)
+Aug 29 19:55:56 symfony [info] {sfWebResponse} Send content (53154 o)
+Aug 29 19:56:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:56:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:56:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:56:13 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:56:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:56:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:56:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:56:13 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:56:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:56:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:56:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:56:14 symfony [info] {sfWebDebugLogger} Configuration 7.38 ms (10)
+Aug 29 19:56:14 symfony [info] {sfWebDebugLogger} Factories 480.50 ms (1)
+Aug 29 19:56:14 symfony [info] {sfWebDebugLogger} Action "checkList/show" 516.20 ms (1)
+Aug 29 19:56:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.83 ms (2)
+Aug 29 19:56:14 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 255.08 ms (1)
+Aug 29 19:56:14 symfony [info] {sfWebResponse} Send content (47728 o)
+Aug 29 19:58:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/1 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '1',)
+Aug 29 19:58:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 19:58:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 19:58:32 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Aug 29 19:58:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 29 19:58:32 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (1)
+Aug 29 19:58:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Aug 29 19:58:32 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:58:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Aug 29 19:58:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 29 19:58:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 29 19:58:32 symfony [info] {sfWebDebugLogger} Configuration 6.75 ms (10)
+Aug 29 19:58:32 symfony [info] {sfWebDebugLogger} Factories 19.64 ms (1)
+Aug 29 19:58:32 symfony [info] {sfWebDebugLogger} Action "checkList/show" 34.80 ms (1)
+Aug 29 19:58:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.61 ms (2)
+Aug 29 19:58:32 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 13.86 ms (1)
+Aug 29 19:58:32 symfony [info] {sfWebResponse} Send content (47525 o)
+Aug 29 20:13:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Aug 29 20:13:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 29 20:13:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 29 20:13:03 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Aug 29 20:13:03 symfony [warning] {sfWebDebugLogger}  Warning at D:\semillero\check-list\vendor\lexpress\symfony1\lib\request\sfRequest.class.php on line 279 (Missing argument 1 for sfRequest::getParameter(), called in D:\semillero\check-list\apps\frontend\modules\checkList\actions\actions.class.php on line 19 and defined)
+Aug 29 20:13:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\semillero\check-list\vendor\lexpress\symfony1\lib\request\sfRequest.class.php on line 281 (Undefined variable: name)
+Aug 29 20:13:03 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Aug 29 20:13:03 symfony [notice] {sfWebDebugLogger}  Notice at D:\semillero\check-list\apps\frontend\modules\checkList\templates\indexSuccess.php on line 18 (Undefined variable: pager)
+Sep 02 18:29:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:29:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:29:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:29:31 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:29:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:29:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:29:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:29:31 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:29:32 symfony [crit] {sfException} Call to undefined method checkListActions::setPage.
+Sep 02 18:29:32 symfony [crit] {sfException} Call to undefined method checkListActions::setPage.
+Sep 02 18:29:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 02 18:29:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:29:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 02 18:29:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Configuration 5.76 ms (9)
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Configuration 83.22 ms (9)
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Factories 37.15 ms (1)
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Factories 1680.29 ms (1)
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Action "checklist/index" 1732.31 ms (1)
+Sep 02 18:29:33 symfony [info] {sfWebDebugLogger} Action "checklist/index" 2504.27 ms (1)
+Sep 02 18:29:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:29:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:29:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:29:52 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:29:52 symfony [crit] {sfException} Call to undefined method checkListActions::setPage.
+Sep 02 18:29:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 02 18:29:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:29:52 symfony [info] {sfWebDebugLogger} Configuration 8.78 ms (9)
+Sep 02 18:29:52 symfony [info] {sfWebDebugLogger} Factories 31.58 ms (1)
+Sep 02 18:29:52 symfony [info] {sfWebDebugLogger} Action "checklist/index" 50.73 ms (1)
+Sep 02 18:30:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:30:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:30:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:30:18 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:30:18 symfony [crit] {sfException} Call to undefined method checkListActions::setPage.
+Sep 02 18:30:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 02 18:30:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:30:18 symfony [info] {sfWebDebugLogger} Configuration 9.46 ms (9)
+Sep 02 18:30:18 symfony [info] {sfWebDebugLogger} Factories 35.00 ms (1)
+Sep 02 18:30:18 symfony [info] {sfWebDebugLogger} Action "checklist/index" 78.29 ms (1)
+Sep 02 18:30:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:30:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:30:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:30:52 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:30:52 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:30:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:30:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 02 18:30:54 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:30:54 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:30:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:30:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:30:54 symfony [info] {sfWebDebugLogger} Configuration 20.81 ms (10)
+Sep 02 18:30:54 symfony [info] {sfWebDebugLogger} Factories 20.55 ms (1)
+Sep 02 18:30:54 symfony [info] {sfWebDebugLogger} Action "checklist/index" 19.51 ms (1)
+Sep 02 18:30:54 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 2063.08 ms (1)
+Sep 02 18:30:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 544.73 ms (2)
+Sep 02 18:30:54 symfony [info] {sfWebResponse} Send content (48874 o)
+Sep 02 18:31:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:31:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:31:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:31:26 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:31:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:31:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:31:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 02 18:31:26 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:31:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:31:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:31:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:31:26 symfony [info] {sfWebDebugLogger} Configuration 8.79 ms (10)
+Sep 02 18:31:26 symfony [info] {sfWebDebugLogger} Factories 26.25 ms (1)
+Sep 02 18:31:26 symfony [info] {sfWebDebugLogger} Action "checklist/index" 19.45 ms (1)
+Sep 02 18:31:26 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 85.93 ms (1)
+Sep 02 18:31:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 43.75 ms (2)
+Sep 02 18:31:26 symfony [info] {sfWebResponse} Send content (48869 o)
+Sep 02 18:32:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:32:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:32:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:32:09 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:32:09 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:32:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:32:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 02 18:32:09 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:32:09 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:32:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:32:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:32:09 symfony [info] {sfWebDebugLogger} Configuration 7.00 ms (10)
+Sep 02 18:32:09 symfony [info] {sfWebDebugLogger} Factories 20.70 ms (1)
+Sep 02 18:32:09 symfony [info] {sfWebDebugLogger} Action "checklist/index" 19.22 ms (1)
+Sep 02 18:32:09 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 42.55 ms (1)
+Sep 02 18:32:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.52 ms (2)
+Sep 02 18:32:09 symfony [info] {sfWebResponse} Send content (48869 o)
+Sep 02 18:45:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:45:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:45:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:45:35 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:45:35 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:45:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:45:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 02 18:45:35 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:45:35 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:45:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:45:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:45:35 symfony [info] {sfWebDebugLogger} Configuration 7.82 ms (10)
+Sep 02 18:45:35 symfony [info] {sfWebDebugLogger} Factories 20.58 ms (1)
+Sep 02 18:45:35 symfony [info] {sfWebDebugLogger} Action "checklist/index" 16.70 ms (1)
+Sep 02 18:45:35 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 40.07 ms (1)
+Sep 02 18:45:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (2)
+Sep 02 18:45:35 symfony [info] {sfWebResponse} Send content (48901 o)
+Sep 02 18:46:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:46:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:46:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:46:06 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:46:06 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:46:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:46:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 02 18:46:06 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:46:06 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:46:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:46:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:46:06 symfony [info] {sfWebDebugLogger} Configuration 8.80 ms (10)
+Sep 02 18:46:06 symfony [info] {sfWebDebugLogger} Factories 21.17 ms (1)
+Sep 02 18:46:06 symfony [info] {sfWebDebugLogger} Action "checklist/index" 15.96 ms (1)
+Sep 02 18:46:06 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 41.71 ms (1)
+Sep 02 18:46:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (2)
+Sep 02 18:46:06 symfony [info] {sfWebResponse} Send content (49648 o)
+Sep 02 18:47:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:47:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:47:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:47:11 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:47:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:47:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:47:11 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:47:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:47:11 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:47:11 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:47:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:47:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:47:11 symfony [info] {sfWebDebugLogger} Configuration 8.40 ms (10)
+Sep 02 18:47:11 symfony [info] {sfWebDebugLogger} Factories 20.00 ms (1)
+Sep 02 18:47:11 symfony [info] {sfWebDebugLogger} Action "checklist/index" 184.50 ms (1)
+Sep 02 18:47:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.05 ms (3)
+Sep 02 18:47:11 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 48.90 ms (1)
+Sep 02 18:47:11 symfony [info] {sfWebResponse} Send content (49678 o)
+Sep 02 18:48:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:48:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:48:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:48:33 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:48:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:48:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:48:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:48:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:48:33 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:48:33 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:48:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:48:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:48:33 symfony [info] {sfWebDebugLogger} Configuration 6.50 ms (10)
+Sep 02 18:48:33 symfony [info] {sfWebDebugLogger} Factories 20.39 ms (1)
+Sep 02 18:48:33 symfony [info] {sfWebDebugLogger} Action "checklist/index" 33.29 ms (1)
+Sep 02 18:48:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.98 ms (3)
+Sep 02 18:48:33 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 22.09 ms (1)
+Sep 02 18:48:33 symfony [info] {sfWebResponse} Send content (49677 o)
+Sep 02 18:53:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:53:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:53:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:53:54 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:53:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:53:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:53:54 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:53:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:53:54 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:53:54 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:53:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:53:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:53:54 symfony [info] {sfWebDebugLogger} Configuration 6.96 ms (10)
+Sep 02 18:53:54 symfony [info] {sfWebDebugLogger} Factories 19.76 ms (1)
+Sep 02 18:53:54 symfony [info] {sfWebDebugLogger} Action "checklist/index" 32.78 ms (1)
+Sep 02 18:53:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.58 ms (3)
+Sep 02 18:53:54 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 21.69 ms (1)
+Sep 02 18:53:54 symfony [info] {sfWebResponse} Send content (49589 o)
+Sep 02 18:55:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:55:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:55:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:55:01 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:55:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:55:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:55:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:55:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:55:01 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:55:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:55:01 symfony [info] {sfWebDebugLogger} Configuration 7.03 ms (10)
+Sep 02 18:55:01 symfony [info] {sfWebDebugLogger} Factories 19.63 ms (1)
+Sep 02 18:55:01 symfony [info] {sfWebDebugLogger} Action "checklist/index" 30.54 ms (1)
+Sep 02 18:55:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.92 ms (3)
+Sep 02 18:55:01 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 22.41 ms (1)
+Sep 02 18:55:01 symfony [info] {sfWebResponse} Send content (49716 o)
+Sep 02 18:55:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:55:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:55:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:55:05 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:55:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:55:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:55:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:55:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:55:05 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:55:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:55:05 symfony [info] {sfWebDebugLogger} Configuration 7.67 ms (10)
+Sep 02 18:55:05 symfony [info] {sfWebDebugLogger} Factories 25.22 ms (1)
+Sep 02 18:55:05 symfony [info] {sfWebDebugLogger} Action "checklist/index" 27.24 ms (1)
+Sep 02 18:55:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.91 ms (3)
+Sep 02 18:55:05 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 26.94 ms (1)
+Sep 02 18:55:05 symfony [info] {sfWebResponse} Send content (49517 o)
+Sep 02 18:55:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:55:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:55:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:55:42 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:55:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:55:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:55:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:55:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:55:42 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:55:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:55:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:55:42 symfony [info] {sfWebDebugLogger} Configuration 7.56 ms (10)
+Sep 02 18:55:42 symfony [info] {sfWebDebugLogger} Factories 22.81 ms (1)
+Sep 02 18:55:42 symfony [info] {sfWebDebugLogger} Action "checklist/index" 33.89 ms (1)
+Sep 02 18:55:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.88 ms (3)
+Sep 02 18:55:42 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 21.61 ms (1)
+Sep 02 18:55:42 symfony [info] {sfWebResponse} Send content (49781 o)
+Sep 02 18:57:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:57:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:27 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:27 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:57:27 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:57:27 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:27 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:27 symfony [info] {sfWebDebugLogger} Configuration 6.97 ms (10)
+Sep 02 18:57:27 symfony [info] {sfWebDebugLogger} Factories 21.44 ms (1)
+Sep 02 18:57:27 symfony [info] {sfWebDebugLogger} Action "checklist/index" 21.30 ms (1)
+Sep 02 18:57:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (3)
+Sep 02 18:57:27 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 21.45 ms (1)
+Sep 02 18:57:27 symfony [info] {sfWebResponse} Send content (49916 o)
+Sep 02 18:57:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'checklist',  'action' => 'index',)
+Sep 02 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:40 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checklist/templates/indexSuccess.php"
+Sep 02 18:57:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:57:40 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:40 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:40 symfony [info] {sfWebDebugLogger} Configuration 6.68 ms (10)
+Sep 02 18:57:40 symfony [info] {sfWebDebugLogger} Factories 21.01 ms (1)
+Sep 02 18:57:40 symfony [info] {sfWebDebugLogger} Action "checklist/index" 31.02 ms (1)
+Sep 02 18:57:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.99 ms (3)
+Sep 02 18:57:40 symfony [info] {sfWebDebugLogger} View "Success" for "checklist/index" 20.52 ms (1)
+Sep 02 18:57:40 symfony [info] {sfWebResponse} Send content (49888 o)
+Sep 02 18:57:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:57:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:44 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:57:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Sep 02 18:57:44 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:44 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:44 symfony [info] {sfWebDebugLogger} Configuration 8.21 ms (10)
+Sep 02 18:57:44 symfony [info] {sfWebDebugLogger} Factories 20.24 ms (1)
+Sep 02 18:57:44 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.83 ms (1)
+Sep 02 18:57:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.90 ms (3)
+Sep 02 18:57:44 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.75 ms (1)
+Sep 02 18:57:44 symfony [info] {sfWebResponse} Send content (50088 o)
+Sep 02 18:57:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:57:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:46 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:46 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:57:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 2 - ()
+Sep 02 18:57:46 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:46 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:46 symfony [info] {sfWebDebugLogger} Configuration 7.07 ms (10)
+Sep 02 18:57:46 symfony [info] {sfWebDebugLogger} Factories 19.99 ms (1)
+Sep 02 18:57:46 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.35 ms (1)
+Sep 02 18:57:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.98 ms (3)
+Sep 02 18:57:46 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 148.16 ms (1)
+Sep 02 18:57:46 symfony [info] {sfWebResponse} Send content (50100 o)
+Sep 02 18:57:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:57:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:52 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:52 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:57:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 5 - ()
+Sep 02 18:57:52 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:52 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:52 symfony [info] {sfWebDebugLogger} Configuration 6.09 ms (10)
+Sep 02 18:57:52 symfony [info] {sfWebDebugLogger} Factories 20.07 ms (1)
+Sep 02 18:57:52 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.80 ms (1)
+Sep 02 18:57:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.82 ms (3)
+Sep 02 18:57:52 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.47 ms (1)
+Sep 02 18:57:52 symfony [info] {sfWebResponse} Send content (50102 o)
+Sep 02 18:57:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:57:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:57:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:57:55 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:57:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:57:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:57:55 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:57:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:57:55 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:55 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:57:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:57:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:57:55 symfony [info] {sfWebDebugLogger} Configuration 6.79 ms (10)
+Sep 02 18:57:55 symfony [info] {sfWebDebugLogger} Factories 19.38 ms (1)
+Sep 02 18:57:55 symfony [info] {sfWebDebugLogger} Action "checkList/index" 33.34 ms (1)
+Sep 02 18:57:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.86 ms (3)
+Sep 02 18:57:55 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.11 ms (1)
+Sep 02 18:57:55 symfony [info] {sfWebResponse} Send content (50110 o)
+Sep 02 18:58:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:58:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:58:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:58:08 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:58:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:58:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:58:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:58:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:58:08 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:58:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:58:08 symfony [info] {sfWebDebugLogger} Configuration 5.88 ms (10)
+Sep 02 18:58:08 symfony [info] {sfWebDebugLogger} Factories 20.63 ms (1)
+Sep 02 18:58:08 symfony [info] {sfWebDebugLogger} Action "checkList/index" 33.71 ms (1)
+Sep 02 18:58:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.83 ms (3)
+Sep 02 18:58:08 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.37 ms (1)
+Sep 02 18:58:08 symfony [info] {sfWebResponse} Send content (50109 o)
+Sep 02 18:58:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:58:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:58:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:58:14 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:58:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:58:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:58:14 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:58:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Sep 02 18:58:14 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:14 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:58:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:58:14 symfony [info] {sfWebDebugLogger} Configuration 6.09 ms (10)
+Sep 02 18:58:14 symfony [info] {sfWebDebugLogger} Factories 19.71 ms (1)
+Sep 02 18:58:14 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.42 ms (1)
+Sep 02 18:58:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.84 ms (3)
+Sep 02 18:58:14 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.30 ms (1)
+Sep 02 18:58:14 symfony [info] {sfWebResponse} Send content (50105 o)
+Sep 02 18:58:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:58:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:58:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:58:17 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:58:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:58:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:58:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:58:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 5 - ()
+Sep 02 18:58:17 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:58:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:58:17 symfony [info] {sfWebDebugLogger} Configuration 6.13 ms (10)
+Sep 02 18:58:17 symfony [info] {sfWebDebugLogger} Factories 19.66 ms (1)
+Sep 02 18:58:17 symfony [info] {sfWebDebugLogger} Action "checkList/index" 21.15 ms (1)
+Sep 02 18:58:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.82 ms (3)
+Sep 02 18:58:17 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.50 ms (1)
+Sep 02 18:58:17 symfony [info] {sfWebResponse} Send content (50102 o)
+Sep 02 18:58:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 18:58:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 18:58:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 18:58:21 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 18:58:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 18:58:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 18:58:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 18:58:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 18:58:21 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 18:58:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 18:58:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 18:58:21 symfony [info] {sfWebDebugLogger} Configuration 7.13 ms (10)
+Sep 02 18:58:21 symfony [info] {sfWebDebugLogger} Factories 25.80 ms (1)
+Sep 02 18:58:21 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.67 ms (1)
+Sep 02 18:58:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.21 ms (3)
+Sep 02 18:58:21 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.57 ms (1)
+Sep 02 18:58:21 symfony [info] {sfWebResponse} Send content (50110 o)
+Sep 02 19:04:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 19:04:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 19:04:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 19:04:38 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 19:04:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 19:04:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 19:04:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 19:04:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 19:04:38 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:04:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:04:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 19:04:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 19:04:38 symfony [info] {sfWebDebugLogger} Configuration 6.66 ms (10)
+Sep 02 19:04:38 symfony [info] {sfWebDebugLogger} Factories 19.82 ms (1)
+Sep 02 19:04:38 symfony [info] {sfWebDebugLogger} Action "checkList/index" 30.94 ms (1)
+Sep 02 19:04:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (3)
+Sep 02 19:04:38 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.20 ms (1)
+Sep 02 19:04:38 symfony [info] {sfWebResponse} Send content (50096 o)
+Sep 02 19:05:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 19:05:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 19:05:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 19:05:41 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 19:05:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 19:05:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 19:05:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 19:05:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 19:05:41 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:05:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:05:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 19:05:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 19:05:41 symfony [info] {sfWebDebugLogger} Configuration 6.84 ms (10)
+Sep 02 19:05:41 symfony [info] {sfWebDebugLogger} Factories 20.23 ms (1)
+Sep 02 19:05:41 symfony [info] {sfWebDebugLogger} Action "checkList/index" 29.95 ms (1)
+Sep 02 19:05:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (3)
+Sep 02 19:05:41 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.97 ms (1)
+Sep 02 19:05:41 symfony [info] {sfWebResponse} Send content (50217 o)
+Sep 02 19:06:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 19:06:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 19:06:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 19:06:13 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 19:06:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 19:06:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 19:06:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 19:06:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 1 - ()
+Sep 02 19:06:13 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:06:13 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:06:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 19:06:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 19:06:13 symfony [info] {sfWebDebugLogger} Configuration 7.01 ms (10)
+Sep 02 19:06:13 symfony [info] {sfWebDebugLogger} Factories 19.90 ms (1)
+Sep 02 19:06:13 symfony [info] {sfWebDebugLogger} Action "checkList/index" 31.57 ms (1)
+Sep 02 19:06:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.55 ms (3)
+Sep 02 19:06:13 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 21.54 ms (1)
+Sep 02 19:06:13 symfony [info] {sfWebResponse} Send content (50298 o)
+Sep 02 19:06:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 19:06:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 19:06:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 19:06:22 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 19:06:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 19:06:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 19:06:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 19:06:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 2 - ()
+Sep 02 19:06:22 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:06:22 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 19:06:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 19:06:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 19:06:22 symfony [info] {sfWebDebugLogger} Configuration 6.35 ms (10)
+Sep 02 19:06:22 symfony [info] {sfWebDebugLogger} Factories 19.50 ms (1)
+Sep 02 19:06:22 symfony [info] {sfWebDebugLogger} Action "checkList/index" 19.93 ms (1)
+Sep 02 19:06:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (3)
+Sep 02 19:06:22 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 20.82 ms (1)
+Sep 02 19:06:22 symfony [info] {sfWebResponse} Send content (50293 o)
+Sep 02 22:27:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 22:27:35 symfony [info] {myUser} Automatic user logout due to timeout
+Sep 02 22:27:35 symfony [info] {myUser} User is not authenticated
+Sep 02 22:27:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 22:27:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 22:27:36 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 22:27:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 22:27:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 22:27:37 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 22:27:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 - ()
+Sep 02 22:27:38 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 22:27:38 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 22:27:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 22:27:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 22:27:38 symfony [info] {sfWebDebugLogger} Configuration 37.60 ms (10)
+Sep 02 22:27:38 symfony [info] {sfWebDebugLogger} Factories 2291.89 ms (1)
+Sep 02 22:27:38 symfony [info] {sfWebDebugLogger} Action "checkList/index" 1465.29 ms (1)
+Sep 02 22:27:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 95.15 ms (3)
+Sep 02 22:27:38 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 1038.46 ms (1)
+Sep 02 22:27:39 symfony [info] {sfWebResponse} Send content (51021 o)
+Sep 02 22:32:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 02 22:32:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 22:32:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 22:32:57 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 02 22:32:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 02 22:32:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 02 22:32:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 02 22:32:57 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 1 OFFSET 2 - ()
+Sep 02 22:32:57 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 22:32:57 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 02 22:32:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 22:32:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 22:32:57 symfony [info] {sfWebDebugLogger} Configuration 23.34 ms (10)
+Sep 02 22:32:57 symfony [info] {sfWebDebugLogger} Factories 223.23 ms (1)
+Sep 02 22:32:57 symfony [info] {sfWebDebugLogger} Action "checkList/index" 243.38 ms (1)
+Sep 02 22:32:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 23.66 ms (3)
+Sep 02 22:32:57 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 207.04 ms (1)
+Sep 02 22:32:57 symfony [info] {sfWebResponse} Send content (50299 o)
+Sep 03 00:15:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:15:19 symfony [info] {myUser} Automatic user logout due to timeout
+Sep 03 00:15:19 symfony [info] {myUser} User is not authenticated
+Sep 03 00:15:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:15:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:15:19 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:15:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:15:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:15:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:15:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 10 OFFSET 20 - ()
+Sep 03 00:15:19 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_pagination.php"
+Sep 03 00:15:19 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:15:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:15:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:15:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} Configuration 656.30 ms (11)
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} Factories 59.20 ms (1)
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} Action "checkList/index" 59.73 ms (1)
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.63 ms (3)
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 105.96 ms (1)
+Sep 03 00:15:19 symfony [info] {sfWebDebugLogger} Partial "checkList/_pagination" 4.65 ms (1)
+Sep 03 00:15:19 symfony [info] {sfWebResponse} Send content (50389 o)
+Sep 03 00:15:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:15:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:15:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:15:58 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:15:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:15:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:15:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:15:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 10 OFFSET 20 - ()
+Sep 03 00:15:58 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:15:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:15:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:15:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:15:58 symfony [info] {sfWebDebugLogger} Configuration 16.76 ms (10)
+Sep 03 00:15:58 symfony [info] {sfWebDebugLogger} Factories 43.80 ms (1)
+Sep 03 00:15:58 symfony [info] {sfWebDebugLogger} Action "checkList/index" 63.93 ms (1)
+Sep 03 00:15:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.55 ms (3)
+Sep 03 00:15:58 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 41.55 ms (1)
+Sep 03 00:15:58 symfony [info] {sfWebResponse} Send content (48294 o)
+Sep 03 00:16:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:16:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:16:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:16:01 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:16:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:16:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:16:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:16:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 10 OFFSET 20 - ()
+Sep 03 00:16:01 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:16:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:16:01 symfony [info] {sfWebDebugLogger} Configuration 15.10 ms (10)
+Sep 03 00:16:01 symfony [info] {sfWebDebugLogger} Factories 45.59 ms (1)
+Sep 03 00:16:01 symfony [info] {sfWebDebugLogger} Action "checkList/index" 65.17 ms (1)
+Sep 03 00:16:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.49 ms (3)
+Sep 03 00:16:01 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 53.18 ms (1)
+Sep 03 00:16:01 symfony [info] {sfWebResponse} Send content (48294 o)
+Sep 03 00:16:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:16:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:16:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:16:06 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:16:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:16:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:16:07 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:16:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 10 - ()
+Sep 03 00:16:07 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:07 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:16:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:16:07 symfony [info] {sfWebDebugLogger} Configuration 14.42 ms (10)
+Sep 03 00:16:07 symfony [info] {sfWebDebugLogger} Factories 45.43 ms (1)
+Sep 03 00:16:07 symfony [info] {sfWebDebugLogger} Action "checkList/index" 63.99 ms (1)
+Sep 03 00:16:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.92 ms (3)
+Sep 03 00:16:07 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 73.34 ms (1)
+Sep 03 00:16:07 symfony [info] {sfWebResponse} Send content (50027 o)
+Sep 03 00:16:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:16:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:16:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:16:32 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:16:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:16:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:16:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:16:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 5 - ()
+Sep 03 00:16:32 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:32 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:16:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:16:32 symfony [info] {sfWebDebugLogger} Configuration 49.76 ms (11)
+Sep 03 00:16:32 symfony [info] {sfWebDebugLogger} Factories 44.81 ms (1)
+Sep 03 00:16:32 symfony [info] {sfWebDebugLogger} Action "checkList/index" 53.25 ms (1)
+Sep 03 00:16:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.59 ms (3)
+Sep 03 00:16:32 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 57.41 ms (1)
+Sep 03 00:16:32 symfony [info] {sfWebResponse} Send content (50925 o)
+Sep 03 00:16:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:16:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:16:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:16:55 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:16:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:16:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:16:56 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:16:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 5 - ()
+Sep 03 00:16:56 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_pagination.php"
+Sep 03 00:16:56 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:56 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:16:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} Configuration 22.40 ms (10)
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} Factories 65.15 ms (1)
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} Action "checkList/index" 91.81 ms (1)
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.09 ms (3)
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 88.36 ms (1)
+Sep 03 00:16:56 symfony [info] {sfWebDebugLogger} Partial "checkList/_pagination" 4.58 ms (1)
+Sep 03 00:16:56 symfony [info] {sfWebResponse} Send content (52457 o)
+Sep 03 00:16:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:16:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:16:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:16:59 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:16:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:16:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:16:59 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:16:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 5 OFFSET 5 - ()
+Sep 03 00:16:59 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_pagination.php"
+Sep 03 00:16:59 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:59 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:16:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:16:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} Configuration 17.56 ms (10)
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} Factories 46.23 ms (1)
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} Action "checkList/index" 65.89 ms (1)
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.82 ms (3)
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 73.17 ms (1)
+Sep 03 00:16:59 symfony [info] {sfWebDebugLogger} Partial "checkList/_pagination" 5.32 ms (1)
+Sep 03 00:16:59 symfony [info] {sfWebResponse} Send content (51283 o)
+Sep 03 00:17:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 03 00:17:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:17:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:17:17 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 03 00:17:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:17:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 03 00:17:17 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 03 00:17:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 5 - ()
+Sep 03 00:17:18 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_pagination.php"
+Sep 03 00:17:18 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:17:18 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:17:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:17:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} Configuration 13.07 ms (10)
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} Factories 43.38 ms (1)
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} Action "checkList/index" 51.84 ms (1)
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.34 ms (3)
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 82.74 ms (1)
+Sep 03 00:17:18 symfony [info] {sfWebDebugLogger} Partial "checkList/_pagination" 4.56 ms (1)
+Sep 03 00:17:18 symfony [info] {sfWebResponse} Send content (52563 o)
+Sep 03 00:19:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/show/id/2 with parameters array (  'module' => 'checkList',  'action' => 'show',  'id' => '2',)
+Sep 03 00:19:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:19:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:19:42 symfony [info] {checkListActions} Call "checkListActions->executeShow()"
+Sep 03 00:19:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:19:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (2)
+Sep 03 00:19:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/showSuccess.php"
+Sep 03 00:19:42 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:19:42 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:19:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:19:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:19:42 symfony [info] {sfWebDebugLogger} Configuration 16.89 ms (10)
+Sep 03 00:19:42 symfony [info] {sfWebDebugLogger} Factories 47.80 ms (1)
+Sep 03 00:19:42 symfony [info] {sfWebDebugLogger} Action "checkList/show" 642.15 ms (1)
+Sep 03 00:19:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 88.17 ms (2)
+Sep 03 00:19:42 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/show" 138.78 ms (1)
+Sep 03 00:19:42 symfony [info] {sfWebResponse} Send content (47810 o)
+Sep 03 00:19:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/edit/id/2 with parameters array (  'module' => 'checkList',  'action' => 'edit',  'id' => '2',)
+Sep 03 00:19:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 03 00:19:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 03 00:19:51 symfony [info] {checkListActions} Call "checkListActions->executeEdit()"
+Sep 03 00:19:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 03 00:19:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c WHERE (c.id = ?) LIMIT 1 - (2)
+Sep 03 00:19:52 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/editSuccess.php"
+Sep 03 00:19:52 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_form.php"
+Sep 03 00:19:53 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:19:53 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 03 00:19:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 03 00:19:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Configuration 13.89 ms (10)
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Factories 45.04 ms (1)
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Action "checkList/edit" 1155.19 ms (1)
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.44 ms (2)
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/edit" 348.63 ms (1)
+Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 296.98 ms (1)
+Sep 03 00:19:53 symfony [info] {sfWebResponse} Send content (54461 o)

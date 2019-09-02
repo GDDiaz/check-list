@@ -13,5 +13,7 @@
  */
 class CheckList extends BaseCheckList
 {
-
+    public function getNameWithPrefix() {
+        return  $this->getPrefix().'-'.$this->getName();
+    }
 }

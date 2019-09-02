@@ -12,9 +12,11 @@ class checkListActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->check_lists = Doctrine_Core::getTable('CheckList')
-      ->createQuery('a')
-      ->execute();
+    $this->check_lists = Doctrine_Core::getTable('CheckList')->createQuery('a');
+    $this->pager = new sfDoctrinePager('CheckList', sfConfig::get('app_max_per_page'));
+    $this->pager->setQuery($this->check_lists);
+    $this->pager->setPage($request->getParameter('page', 1));
+    $this->pager->init();
   }
 
   public function executeShow(sfWebRequest $request)

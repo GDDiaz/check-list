@@ -15,7 +15,7 @@
     </tr>
   </thead>
   <tbody>
-    <?php foreach ($check_lists as $check_list): ?>
+    <?php foreach ($pager->getResults() as $check_list): ?>
     <tr>
       <td><a href="<?php echo url_for('checkList/show?id='.$check_list->getId()) ?>"><?php echo $check_list->getId() ?></a></td>
       <td><?php echo $check_list->getName() ?></td>
@@ -30,5 +30,7 @@
     <?php endforeach; ?>
   </tbody>
 </table>
+
+<?php include_partial('pagination', array('pager' => $pager)) ?>
 
   <a href="<?php echo url_for('checkList/new') ?>">New</a>
