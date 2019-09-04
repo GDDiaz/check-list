@@ -4566,3 +4566,440 @@ Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.44 ms (2
 Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/edit" 348.63 ms (1)
 Sep 03 00:19:53 symfony [info] {sfWebDebugLogger} Partial "checkList/_form" 296.98 ms (1)
 Sep 03 00:19:53 symfony [info] {sfWebResponse} Send content (54461 o)
+Sep 04 23:06:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /newCriterion with parameters array (  'module' => 'newCriterion',  'action' => 'index',)
+Sep 04 23:06:59 symfony [info] {sfFrontWebController} Action "newCriterion/index" does not exist
+Sep 04 23:06:59 symfony [err] {sfError404Exception} Action "newCriterion/index" does not exist.
+Sep 04 23:06:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 04 23:06:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:06:59 symfony [info] {sfWebDebugLogger} Configuration 48.15 ms (6)
+Sep 04 23:06:59 symfony [info] {sfWebDebugLogger} Factories 579.95 ms (1)
+Sep 04 23:07:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:07:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:07:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:07:20 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:07:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:07:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:07:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:07:21 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:07:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:07:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:07:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:07:21 symfony [info] {sfWebDebugLogger} Configuration 12.82 ms (10)
+Sep 04 23:07:21 symfony [info] {sfWebDebugLogger} Factories 21.33 ms (1)
+Sep 04 23:07:21 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 438.04 ms (1)
+Sep 04 23:07:21 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 243.55 ms (1)
+Sep 04 23:07:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.62 ms (2)
+Sep 04 23:07:21 symfony [info] {sfWebResponse} Send content (59649 o)
+Sep 04 23:08:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:08:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:08:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:08:24 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:08:24 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:08:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:08:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:08:24 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:08:24 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:08:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:08:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:08:24 symfony [info] {sfWebDebugLogger} Configuration 6.95 ms (10)
+Sep 04 23:08:24 symfony [info] {sfWebDebugLogger} Factories 21.16 ms (1)
+Sep 04 23:08:24 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 30.11 ms (1)
+Sep 04 23:08:24 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 67.37 ms (1)
+Sep 04 23:08:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.62 ms (2)
+Sep 04 23:08:24 symfony [info] {sfWebResponse} Send content (59645 o)
+Sep 04 23:08:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:08:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:08:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:08:45 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:08:45 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:08:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:08:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:08:46 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:08:46 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:08:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:08:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:08:46 symfony [info] {sfWebDebugLogger} Configuration 7.87 ms (10)
+Sep 04 23:08:46 symfony [info] {sfWebDebugLogger} Factories 25.53 ms (1)
+Sep 04 23:08:46 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 26.73 ms (1)
+Sep 04 23:08:46 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 61.74 ms (1)
+Sep 04 23:08:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.46 ms (2)
+Sep 04 23:08:46 symfony [info] {sfWebResponse} Send content (59625 o)
+Sep 04 23:37:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:37:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:37:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:37:57 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:37:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:37:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:37:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:37:58 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:37:58 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:37:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:37:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:37:58 symfony [info] {sfWebDebugLogger} Configuration 8.57 ms (10)
+Sep 04 23:37:58 symfony [info] {sfWebDebugLogger} Factories 694.48 ms (1)
+Sep 04 23:37:58 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 336.05 ms (1)
+Sep 04 23:37:58 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 424.76 ms (1)
+Sep 04 23:37:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 18.90 ms (2)
+Sep 04 23:37:58 symfony [info] {sfWebResponse} Send content (49831 o)
+Sep 04 23:38:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:38:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:38:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:38:21 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:38:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:38:21 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (6)
+Sep 04 23:38:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:38:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:38:21 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:38:21 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:38:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:38:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:38:21 symfony [info] {sfWebDebugLogger} Configuration 9.30 ms (10)
+Sep 04 23:38:21 symfony [info] {sfWebDebugLogger} Factories 21.37 ms (1)
+Sep 04 23:38:21 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 352.94 ms (1)
+Sep 04 23:38:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 4.92 ms (3)
+Sep 04 23:38:21 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 22.15 ms (1)
+Sep 04 23:38:21 symfony [info] {sfWebResponse} Send content (51596 o)
+Sep 04 23:40:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:40:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:40:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:40:31 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:40:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:40:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (6)
+Sep 04 23:40:31 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:40:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:40:31 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:40:31 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:40:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:40:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:40:31 symfony [info] {sfWebDebugLogger} Configuration 7.16 ms (10)
+Sep 04 23:40:31 symfony [info] {sfWebDebugLogger} Factories 20.59 ms (1)
+Sep 04 23:40:31 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 63.91 ms (1)
+Sep 04 23:40:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.05 ms (3)
+Sep 04 23:40:31 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 22.27 ms (1)
+Sep 04 23:40:31 symfony [info] {sfWebResponse} Send content (51713 o)
+Sep 04 23:40:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:40:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:40:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:40:41 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:40:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:40:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (6)
+Sep 04 23:40:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:40:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:40:41 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:40:41 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:40:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:40:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:40:41 symfony [info] {sfWebDebugLogger} Configuration 8.93 ms (10)
+Sep 04 23:40:41 symfony [info] {sfWebDebugLogger} Factories 20.84 ms (1)
+Sep 04 23:40:41 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 48.46 ms (1)
+Sep 04 23:40:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.04 ms (3)
+Sep 04 23:40:41 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 21.39 ms (1)
+Sep 04 23:40:41 symfony [info] {sfWebResponse} Send content (51610 o)
+Sep 04 23:43:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /checkList with parameters array (  'module' => 'checkList',  'action' => 'index',)
+Sep 04 23:43:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:43:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:43:01 symfony [info] {checkListActions} Call "checkListActions->executeIndex()"
+Sep 04 23:43:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:43:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM check_list c - ()
+Sep 04 23:43:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/indexSuccess.php"
+Sep 04 23:43:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c LIMIT 5 - ()
+Sep 04 23:43:01 symfony [info] {sfPartialView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/_pagination.php"
+Sep 04 23:43:01 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:43:01 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:43:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:43:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} Configuration 8.95 ms (10)
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} Factories 20.30 ms (1)
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} Action "checkList/index" 237.00 ms (1)
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.73 ms (3)
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/index" 321.52 ms (1)
+Sep 04 23:43:01 symfony [info] {sfWebDebugLogger} Partial "checkList/_pagination" 89.39 ms (1)
+Sep 04 23:43:01 symfony [info] {sfWebResponse} Send content (52589 o)
+Sep 04 23:43:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:43:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:43:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:43:05 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:43:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:43:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:43:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:43:05 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:43:05 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:43:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:43:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:43:05 symfony [info] {sfWebDebugLogger} Configuration 6.10 ms (10)
+Sep 04 23:43:05 symfony [info] {sfWebDebugLogger} Factories 20.47 ms (1)
+Sep 04 23:43:05 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 23.99 ms (1)
+Sep 04 23:43:05 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/newCriterion" 41.84 ms (1)
+Sep 04 23:43:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.68 ms (2)
+Sep 04 23:43:05 symfony [info] {sfWebResponse} Send content (49872 o)
+Sep 04 23:47:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/newCriterion with parameters array (  'module' => 'checkList',  'action' => 'newCriterion',)
+Sep 04 23:47:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:47:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:47:16 symfony [info] {checkListActions} Call "checkListActions->executeNewCriterion()"
+Sep 04 23:47:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:47:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 04 23:47:17 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO criteria (name, check_list_id, weight, created_at, updated_at) VALUES (?, ?, ?, ?, ?) - (sASasAS, 1, 10, 2019-09-04 23:47:17, 2019-09-04 23:47:17)
+Sep 04 23:47:17 symfony [info] {sfFrontWebController} Redirect to "http://check-list.local/frontend_dev.php/checkList/editCriterion/id/1"
+Sep 04 23:47:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 04 23:47:17 symfony [info] {sfWebResponse} Send header "Location: http://check-list.local/frontend_dev.php/checkList/editCriterion/id/1"
+Sep 04 23:47:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:47:17 symfony [info] {sfWebDebugLogger} Configuration 6.67 ms (9)
+Sep 04 23:47:17 symfony [info] {sfWebDebugLogger} Factories 20.80 ms (1)
+Sep 04 23:47:17 symfony [info] {sfWebDebugLogger} Action "checkList/newCriterion" 411.21 ms (1)
+Sep 04 23:47:17 symfony [info] {sfWebDebugLogger} Database (Doctrine) 14.38 ms (3)
+Sep 04 23:47:17 symfony [info] {sfWebResponse} Send content (140 o)
+Sep 04 23:47:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 04 23:47:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 04 23:47:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 04 23:47:19 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 04 23:47:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 04 23:47:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 04 23:47:19 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 04 23:47:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 04 23:47:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 04 23:47:19 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:47:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 04 23:47:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 04 23:47:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 04 23:47:19 symfony [info] {sfWebDebugLogger} Configuration 6.75 ms (10)
+Sep 04 23:47:19 symfony [info] {sfWebDebugLogger} Factories 20.37 ms (1)
+Sep 04 23:47:19 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 59.31 ms (1)
+Sep 04 23:47:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.02 ms (3)
+Sep 04 23:47:19 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 21.86 ms (1)
+Sep 04 23:47:19 symfony [info] {sfWebResponse} Send content (53167 o)
+Sep 05 00:04:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:04:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:04:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:04:08 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:04:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:04:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:04:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:04:08 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:04:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:04:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:04:08 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:04:08 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:04:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:04:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:04:08 symfony [info] {sfWebDebugLogger} Configuration 15.35 ms (10)
+Sep 05 00:04:08 symfony [info] {sfWebDebugLogger} Factories 45.83 ms (1)
+Sep 05 00:04:08 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 97.66 ms (1)
+Sep 05 00:04:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.60 ms (4)
+Sep 05 00:04:08 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 51.38 ms (1)
+Sep 05 00:04:08 symfony [info] {sfWebResponse} Send content (54740 o)
+Sep 05 00:04:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:04:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:04:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:04:53 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:04:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:04:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:04:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:04:53 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:04:53 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:04:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:06:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:06:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:06:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:06:16 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:06:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:06:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:06:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:06:16 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:06:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:06:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:06:16 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:06:16 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:06:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:06:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:06:16 symfony [info] {sfWebDebugLogger} Configuration 15.62 ms (10)
+Sep 05 00:06:16 symfony [info] {sfWebDebugLogger} Factories 49.44 ms (1)
+Sep 05 00:06:16 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 150.62 ms (1)
+Sep 05 00:06:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.52 ms (4)
+Sep 05 00:06:16 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 43.32 ms (1)
+Sep 05 00:06:16 symfony [info] {sfWebResponse} Send content (54864 o)
+Sep 05 00:23:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:23:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:23:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:23:56 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:23:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:23:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:23:56 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:23:56 symfony [crit] {sfException} Call to undefined method CriteriaForm::checkWeight.
+Sep 05 00:23:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 05 00:23:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:23:56 symfony [info] {sfWebDebugLogger} Configuration 19.13 ms (9)
+Sep 05 00:23:56 symfony [info] {sfWebDebugLogger} Factories 190.06 ms (1)
+Sep 05 00:23:56 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 357.55 ms (1)
+Sep 05 00:23:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.84 ms (3)
+Sep 05 00:24:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:24:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:24:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:24:18 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:24:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:24:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:24:18 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:24:18 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:24:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:24:18 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:24:18 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:24:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:24:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:24:18 symfony [info] {sfWebDebugLogger} Configuration 14.39 ms (10)
+Sep 05 00:24:18 symfony [info] {sfWebDebugLogger} Factories 45.08 ms (1)
+Sep 05 00:24:18 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 99.28 ms (1)
+Sep 05 00:24:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.64 ms (3)
+Sep 05 00:24:18 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 41.01 ms (1)
+Sep 05 00:24:18 symfony [info] {sfWebResponse} Send content (53089 o)
+Sep 05 00:24:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:24:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:24:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:24:24 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:24:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:24:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:24:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:24:24 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:24:24 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:24:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:24:24 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:24:24 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:24:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:24:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:24:24 symfony [info] {sfWebDebugLogger} Configuration 14.21 ms (10)
+Sep 05 00:24:24 symfony [info] {sfWebDebugLogger} Factories 43.84 ms (1)
+Sep 05 00:24:24 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 110.48 ms (1)
+Sep 05 00:24:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.19 ms (4)
+Sep 05 00:24:24 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 45.83 ms (1)
+Sep 05 00:24:24 symfony [info] {sfWebResponse} Send content (54835 o)
+Sep 05 00:24:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:24:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:24:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:24:55 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:24:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:24:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:24:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:24:55 symfony [crit] {Doctrine_Query_Exception} The root class of the query (alias cl)  must have at least one field selected.
+Sep 05 00:24:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 05 00:24:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:24:56 symfony [info] {sfWebDebugLogger} Configuration 12.19 ms (9)
+Sep 05 00:24:56 symfony [info] {sfWebDebugLogger} Factories 45.67 ms (1)
+Sep 05 00:24:56 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 525.79 ms (1)
+Sep 05 00:24:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.75 ms (3)
+Sep 05 00:25:19 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:25:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:25:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:25:19 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:25:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:25:19 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:25:19 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:25:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:25:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:25:19 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:25:19 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:25:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:25:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:25:19 symfony [info] {sfWebDebugLogger} Configuration 13.88 ms (10)
+Sep 05 00:25:19 symfony [info] {sfWebDebugLogger} Factories 40.91 ms (1)
+Sep 05 00:25:19 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 117.55 ms (1)
+Sep 05 00:25:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.22 ms (3)
+Sep 05 00:25:19 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 51.58 ms (1)
+Sep 05 00:25:19 symfony [info] {sfWebResponse} Send content (53090 o)
+Sep 05 00:25:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:25:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:25:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:25:24 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:25:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:25:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:25:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:25:24 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c2.id AS c2__id, c2.weight AS c2__weight FROM check_list c LEFT JOIN criteria c2 ON c.id = c2.check_list_id WHERE (c.id = ?) - (1)
+Sep 05 00:26:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:26:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:26:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:26:23 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:26:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:26:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:26:23 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:26:23 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:26:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:26:24 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:26:24 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:26:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:26:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:26:24 symfony [info] {sfWebDebugLogger} Configuration 15.76 ms (10)
+Sep 05 00:26:24 symfony [info] {sfWebDebugLogger} Factories 44.63 ms (1)
+Sep 05 00:26:24 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 118.07 ms (1)
+Sep 05 00:26:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.77 ms (3)
+Sep 05 00:26:24 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 48.98 ms (1)
+Sep 05 00:26:24 symfony [info] {sfWebResponse} Send content (53090 o)
+Sep 05 00:26:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:26:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:26:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:26:29 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:26:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:26:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:26:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:26:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c2.id AS c2__id, c2.weight AS c2__weight FROM check_list c LEFT JOIN criteria c2 ON c.id = c2.check_list_id WHERE (c.id = ?) - (1)
+Sep 05 00:27:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:27:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:27:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:27:26 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:27:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:27:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:27:26 symfony [info] {checkListActions} Change template to "CURRENT/newCriterion"
+Sep 05 00:27:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\modules/checkList/templates/newCriterionSuccess.php"
+Sep 05 00:27:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.name AS c__name, c.descriptor AS c__descriptor, c.prefix AS c__prefix, c.threshold AS c__threshold, c.status AS c__status, c.versionat AS c__versionat, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM check_list c - ()
+Sep 05 00:27:26 symfony [info] {sfPHPView} Decorate content with "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:27:26 symfony [info] {sfPHPView} Render "D:\semillero\check-list\apps\frontend\templates/layout.php"
+Sep 05 00:27:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 05 00:27:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:27:26 symfony [info] {sfWebDebugLogger} Configuration 14.95 ms (10)
+Sep 05 00:27:26 symfony [info] {sfWebDebugLogger} Factories 43.37 ms (1)
+Sep 05 00:27:26 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 94.05 ms (1)
+Sep 05 00:27:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.62 ms (3)
+Sep 05 00:27:26 symfony [info] {sfWebDebugLogger} View "Success" for "checkList/editCriterion" 44.24 ms (1)
+Sep 05 00:27:26 symfony [info] {sfWebResponse} Send content (53089 o)
+Sep 05 00:27:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:27:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:27:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:27:29 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:27:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:27:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:27:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:27:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c2.id AS c2__id, c2.weight AS c2__weight FROM check_list c LEFT JOIN criteria c2 ON c.id = c2.check_list_id WHERE (c.id = ?) - (1)
+Sep 05 00:31:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:31:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:31:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:31:28 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:31:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:31:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:31:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:31:28 symfony [crit] {Doctrine_Query_Exception} Unknown column check
+Sep 05 00:31:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 05 00:31:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 05 00:31:28 symfony [info] {sfWebDebugLogger} Configuration 13.86 ms (9)
+Sep 05 00:31:28 symfony [info] {sfWebDebugLogger} Factories 45.88 ms (1)
+Sep 05 00:31:28 symfony [info] {sfWebDebugLogger} Action "checkList/editCriterion" 555.00 ms (1)
+Sep 05 00:31:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.78 ms (3)
+Sep 05 00:31:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:31:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:31:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:31:57 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:31:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:31:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:31:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:31:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, SUM(c.weight) AS c__0 FROM criteria c WHERE (c.check_list_id = ?) - (1)
+Sep 05 00:32:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:32:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:32:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:32:26 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:32:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:32:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:32:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:32:26 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, SUM(c.weight) AS c__0 FROM criteria c WHERE (c.check_list_id = ?) - (1)
+Sep 05 00:32:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /checkList/editCriterion/id/1 with parameters array (  'module' => 'checkList',  'action' => 'editCriterion',  'id' => '1',)
+Sep 05 00:32:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 05 00:32:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 05 00:32:43 symfony [info] {checkListActions} Call "checkListActions->executeEditCriterion()"
+Sep 05 00:32:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 05 00:32:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.name AS c__name, c.check_list_id AS c__check_list_id, c.weight AS c__weight, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM criteria c WHERE (c.id = ?) LIMIT 1 - (1)
+Sep 05 00:32:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT COUNT(*) AS num_results FROM check_list c WHERE c.id = ? - (1)
+Sep 05 00:32:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, SUM(c.weight) AS c__0 FROM criteria c WHERE (c.check_list_id = ?) - (1)

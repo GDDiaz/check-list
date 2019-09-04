@@ -37,6 +37,9 @@ Criteria:
       notnull: true
     check_list_id:
       type: integer
+      notnull: true
+    weight:
+      type: double
   relations:
     CheckList:
       onDelete: CASCADE

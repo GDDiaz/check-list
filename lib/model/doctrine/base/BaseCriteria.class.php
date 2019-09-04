@@ -8,16 +8,19 @@
  * @property int        $id                          Type: integer, primary key
  * @property string     $name                        Type: string(255)
  * @property int        $check_list_id               Type: integer
+ * @property double     $weight                      Type: double
  * @property CheckList  $CheckList                   
  *  
  * @method int          getId()                      Type: integer, primary key
  * @method string       getName()                    Type: string(255)
  * @method int          getCheckListId()             Type: integer
+ * @method double       getWeight()                  Type: double
  * @method CheckList    getCheckList()               
  *  
  * @method Criteria     setId(int $val)              Type: integer, primary key
  * @method Criteria     setName(string $val)         Type: string(255)
  * @method Criteria     setCheckListId(int $val)     Type: integer
+ * @method Criteria     setWeight(double $val)       Type: double
  * @method Criteria     setCheckList(CheckList $val) 
  *  
  * @package    check-list
@@ -42,6 +45,10 @@ abstract class BaseCriteria extends sfDoctrineRecord
              ));
         $this->hasColumn('check_list_id', 'integer', null, array(
              'type' => 'integer',
+             'notnull' => true,
+             ));
+        $this->hasColumn('weight', 'double', null, array(
+             'type' => 'double',
              ));
     }
 

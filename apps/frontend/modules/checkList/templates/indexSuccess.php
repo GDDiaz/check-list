@@ -34,3 +34,4 @@
 <?php include_partial('pagination', array('pager' => $pager)) ?>
 
   <a href="<?php echo url_for('checkList/new') ?>">New</a>
+  <a href="<?php echo url_for('checkList/newCriterion')?>">New Criterion</a>

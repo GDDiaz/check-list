@@ -78,4 +78,47 @@ class checkListActions extends sfActions
       $this->redirect('checkList/edit?id='.$check_list->getId());
     }
   }
+
+  //---------------- NEW ACTIONS TO CRITERIA MANAGEMENT -------------------------------//
+
+  public function executeNewCriterion(sfWebRequest $request)
+  {
+      $this->title = 'New Criterion';
+    $this->form = new CriteriaForm();
+
+    if($request->isMethod(sfRequest::POST)) {
+      $this->processFormCriteria($request, $this->form);
+    }
+  }
+
+  public function executeEditCriterion(sfWebRequest $request)
+  {
+      $this->title = 'Edit Criterion';
+      $this->forward404Unless($criterion = Doctrine_Core::getTable('Criteria')->find(array($request->getParameter('id'))), sprintf('Object criterion does not exist (%s).', $request->getParameter('id')));
+      $this->form = new CriteriaForm($criterion);
+      if ($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT)) {
+          $this->processFormCriteria($request, $this->form);
+      }
+
+      $this->setTemplate('newCriterion');
+  }
+
+    public function executeDeleteCriterion(sfWebRequest $request)
+    {
+        $request->checkCSRFProtection();
+
+        $this->forward404Unless($criterion = Doctrine_Core::getTable('Criteria')->find(array($request->getParameter('id'))), sprintf('Object criterion does not exist (%s).', $request->getParameter('id')));
+        $criterion->delete();
+
+        $this->redirect('checkList/index');
+    }
+
+   protected function processFormCriteria(sfWebRequest $request, sfForm $form)
+   {
+     $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
+     if ($form->isValid()) {
+         $criterion = $form->save();
+         $this->redirect('checkList/editCriterion?id='.$criterion->getId());
+     }
+   }
 }
