@@ -15,3 +15,48 @@
 #     password: changeme
 #     name:     Kris Wallsmith
 #     email:    kris.wallsmith@symfony-project.com
+
+sfGuardUser:
+  User_admin:
+    first_name:     John
+    last_name:      Doe
+    email_address:  john.doe@gmail.com
+    username:       admin
+    password:       admin
+    is_super_admin: true
+    Groups:         [Group_admin]
+
+  User_staff:
+    first_name:     Tom
+    last_name:      Doe
+    email_address:  tom.doe@gmail.com
+    username:       staff
+    password:       staff
+    is_super_admin: false
+    Permissions:    [Permission_staff]
+
+  User_guest:
+    first_name:     Lui
+    last_name:      Doe
+    email_address:  lui.doe@gmail.com
+    username:       guest
+    password:       guest
+    is_super_admin: false
+    Permissions:    [Permission_guest]
+
+sfGuardGroup:
+  Group_admin:
+    name:           admin
+    description:    Administrator group
+    Permissions:    [Permission_admin]
+
+sfGuardPermission:
+  Permission_admin:
+    name:           admin
+    description:    Administrator permission
+  Permission_staff:
+    name:           staff
+    description:    User staff
+  Permission_guest:
+    name:           guest
+    description:    User guest

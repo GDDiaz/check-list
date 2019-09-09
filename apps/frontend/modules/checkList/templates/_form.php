@@ -51,7 +51,7 @@
     <div class="col m12">
       &nbsp;<a href="<?php echo url_for('checkList/index') ?>">Back to list</a>
       <?php if (!$form->getObject()->isNew()): ?>
-         &nbsp;<?php echo link_to('Delete', 'checkList/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+         &nbsp;<?php echo link_to('Borrar', 'checkList/delete?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
       <?php endif; ?>
       <input type="submit" value="Save" />
 

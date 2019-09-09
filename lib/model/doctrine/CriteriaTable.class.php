@@ -17,16 +17,13 @@ class CriteriaTable extends Doctrine_Table
         return Doctrine_Core::getTable('Criteria');
     }
 
-    public static function sumWeightByCheckList($checkListId) {
-        $criteriaList = Doctrine_Query::create()->select('c.id, SUM(c.weight) as total')->from('Criteria c')->where('c.check_list_id = ?',
-            $checkListId)->fetchArray();
+    public static function sumWeightByCheckList($checkListId, $criterionToExclude = false ) {
+        $query = Doctrine_Query::create()->select('c.id, SUM(c.weight) as total')->from('Criteria c')->where('c.check_list_id = ?',
+            $checkListId);
 
-        var_dump($criteriaList);
-        exit;
-        foreach ($criteriaList as $criterion) {
-            var_dump($criterion);
-            exit;
+        if($criterionToExclude) {
+            $query->andWhereNotIn('c.id', [$criterionToExclude]);
         }
-        exit;
+        return $query->fetchOne()->getTotal();
     }
 }

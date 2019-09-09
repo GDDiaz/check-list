@@ -84,7 +84,7 @@ class checkListActions extends sfActions
   public function executeNewCriterion(sfWebRequest $request)
   {
       $this->title = 'New Criterion';
-    $this->form = new CriteriaForm();
+       $this->form = new CriteriaForm();
 
     if($request->isMethod(sfRequest::POST)) {
       $this->processFormCriteria($request, $this->form);

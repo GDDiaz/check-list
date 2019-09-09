@@ -16,17 +16,4 @@ class CheckListTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('CheckList');
     }
-
-    public static function sumWeightFromCriteria($checkListId) {
-        $criteriaList = Doctrine_Query::create()->select('cl.id, cl.name, c.weight')->from('CheckList cl')->where('cl.id = ?',
-            $checkListId)->leftJoin('cl.Criteria c')->fetchOne();
-
-        var_dump($criteriaList);
-        exit;
-        foreach ($criteriaList as $criterion) {
-            var_dump($criterion);
-            exit;
-        }
-        exit;
-    }
 }

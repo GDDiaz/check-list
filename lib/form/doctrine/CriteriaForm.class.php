@@ -35,10 +35,12 @@ class CriteriaForm extends BaseCriteriaForm
 
         if($values['check_list_id'] != null && $values['weight'] != null)
         {
-            CriteriaTable::sumWeightByCheckList($values['check_list_id']);
-            if(true)
-            {
-                $error = new sfValidatorError($validator, 'Alerta!: la suma de los porcentajes supera el 100%!');
+            $criterionId = ($this->isNew()) ? false : $this->getObject()->getId();
+            $total =  CriteriaTable::sumWeightByCheckList($values['check_list_id'], $criterionId);
+
+            $newTotal = $total + $values['weight'];
+            if($newTotal > 100) {
+                $error = new sfValidatorError($validator, 'Alerta!: la suma de los porcentajes supera el 100%!, el porcentaje del criterio debe ser igual o menor a ' . (100 - $total));
                 $ves = new sfValidatorErrorSchema($validator, array('weight' => $error));
                 throw $ves;
             }
