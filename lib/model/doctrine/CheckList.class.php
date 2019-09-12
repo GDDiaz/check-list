@@ -13,7 +13,59 @@
  */
 class CheckList extends BaseCheckList
 {
-    public function getNameWithPrefix() {
-        return  $this->getPrefix().'-'.$this->getName();
+  public function getNameWithPrefix()
+  {
+    return $this->getPrefix() . '-' . $this->getName();
+  }
+
+  /**
+   * @param $checkListId
+   * @return mixed
+   */
+  public function getCheckListById($checkListId)
+  {
+    return Doctrine_Core::getTable('CheckList')
+      ->getCheckListById($checkListId);
+  }
+
+  /**
+   * @return mixed
+   */
+  public function getActiveCheckListInArray($checkListId)
+  {
+    return Doctrine_Core::getTable('CheckList')->getActiveCheckList(3);
+  }
+
+  /**
+   * @return mixed
+   */
+  public function getInactiveCheckListInArray($checkListId)
+  {
+    return Doctrine_Core::getTable('CheckList')->getInactiveCheckList($checkListId);
+  }
+
+  /**
+   * @return bool
+   */
+  public function hasCriteria()
+  {
+    $criterias = $this->getCriteria();
+
+    if (count($criterias) <= 0)
+    {
+      return true;
     }
+
+    return false;
+  }
+
+  /**
+   * @param $checkListId
+   * @param int $hydrationMode
+   * @return mixed
+   */
+  public function getAllCriteriasByCheckList($checkListId, $hydrationMode = 2)
+  {
+    return Doctrine_Core::getTable('CheckList')->getAllCriteriasByCheckList($checkListId, $hydrationMode);
+  }
 }

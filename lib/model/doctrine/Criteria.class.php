@@ -13,7 +13,27 @@
  */
 class Criteria extends BaseCriteria
 {
-    public function getNameCustom() {
-        return $this->getCheckList()->getPrefix2()+ '-' +$this->getName();
-    }
+  public function getNameCustom()
+  {
+    return $this->getCheckList()->getPrefix() + '-' + $this->getName();
+  }
+
+  /**
+   * @param $checkListId
+   * @param bool $criterionToExclude
+   * @return int
+   */
+  public static function sumWeightByCheckList($checkListId, $criterionToExclude = false)
+  {
+    return Doctrine_Core::getTable('Criteria')->sumWeightByCheckList($checkListId, $criterionToExclude);
+  }
+
+  /**
+   * @param $checkListId
+   * @return mixed
+   */
+  public function getCriteriasByCheckList($checkListId)
+  {
+    return Doctrine_Core::getTable('Criteria')->getCriteriasByCheckList($checkListId);
+  }
 }

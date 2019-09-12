@@ -7,23 +7,46 @@
  */
 class CriteriaTable extends Doctrine_Table
 {
-    /**
-     * Returns an instance of this class.
-     *
-     * @return CriteriaTable The table instance
-     */
-    public static function getInstance()
+  /**
+   * Returns an instance of this class.
+   *
+   * @return CriteriaTable The table instance
+   */
+  public static function getInstance()
+  {
+    return Doctrine_Core::getTable('Criteria');
+  }
+
+  /**
+   * @param $checkListId
+   * @param bool $criterionToExclude
+   * @return mixed
+   */
+  public static function sumWeightByCheckList($checkListId, $criterionToExclude = false)
+  {
+    $query = Doctrine_Query::create()->select('c.id, SUM(c.weight) as total')->from('Criteria c')->where('c.check_list_id = ?',
+      $checkListId);
+
+    if ($criterionToExclude)
     {
-        return Doctrine_Core::getTable('Criteria');
+      $query->andWhereNotIn('c.id', [$criterionToExclude]);
     }
 
-    public static function sumWeightByCheckList($checkListId, $criterionToExclude = false ) {
-        $query = Doctrine_Query::create()->select('c.id, SUM(c.weight) as total')->from('Criteria c')->where('c.check_list_id = ?',
-            $checkListId);
+    return $query->fetchOne()->getTotal();
+  }
 
-        if($criterionToExclude) {
-            $query->andWhereNotIn('c.id', [$criterionToExclude]);
-        }
-        return $query->fetchOne()->getTotal();
-    }
+  /**
+   * @param $checkListId
+   * @param int $hydrationMode
+   * @return Doctrine_Collection
+   * @throws Doctrine_Query_Exception
+   */
+  public function getCriteriasByCheckList($checkListId, $hydrationMode = 2)
+  {
+    $query = Doctrine_Query::create()
+      ->from('Criteria c')
+      ->where('c.check_list = ?', $checkListId);
+
+    return $query->execute(null, $hydrationMode);
+  }
 }
