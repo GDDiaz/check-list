@@ -1,19 +1,19 @@
 <?php
 
 /**
- * Criteria form.
+ * Standard form.
  *
  * @package    check-list
  * @subpackage form
  * @author     Your name here
  * @version    SVN: $Id$
  */
-class CriteriaForm extends BaseCriteriaForm
+class StandardForm extends BaseStandardForm
 {
   public function configure()
   {
       $this->widgetSchema['name'] = new sfWidgetFormInputText(array(), array( 'class' => 'form-control'));
-      $this->widgetSchema['check_list_id'] = new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CheckList'), 'add_empty' => false), array( 'class' => 'form-control'));
+      $this->widgetSchema['template_id'] = new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Template'), 'add_empty' => false), array( 'class' => 'form-control'));
       $this->widgetSchema['weight'] = new sfWidgetFormInputText(array(), array( 'class' => 'form-control'));
 
       $this->validatorSchema['weight'] = new sfValidatorNumber(
@@ -25,7 +25,7 @@ class CriteriaForm extends BaseCriteriaForm
           new sfValidatorCallback(array('callback' => array($this, 'checkWeight')))
       );
 
-      $this->useFields(['name', 'check_list_id', 'weight']);
+      $this->useFields(['name', 'template_id', 'weight']);
   }
 
 
@@ -33,10 +33,10 @@ class CriteriaForm extends BaseCriteriaForm
     public function checkWeight($validator, $values)
     {
 
-        if($values['check_list_id'] != null && $values['weight'] != null)
+        if($values['template_id'] != null && $values['weight'] != null)
         {
             $criterionId = ($this->isNew()) ? false : $this->getObject()->getId();
-            $total =  CriteriaTable::sumWeightByCheckList($values['check_list_id'], $criterionId);
+            $total =  StandardTable::sumWeightByCheckList($values['template_id'], $criterionId);
 
             $newTotal = $total + $values['weight'];
             if($newTotal > 100) {

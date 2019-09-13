@@ -1,3 +1,55 @@
+Template:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    description:
+      type: clob
+    prefix:
+      type: string(255)
+    threshold:
+      type: integer
+      notnull: true
+    checklists_qt:
+      type: integer
+    status:
+      type: boolean
+      default: true
+      notnull: true
+
+Standard:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    name:
+      type: string(255)
+      notnull: true
+    description:
+      type: clob
+    template_id:
+      type: integer
+      notnull: true
+    weight:
+      type: double
+  relations:
+    Template:
+      onDelete: CASCADE
+      local: template_id
+      foreign: id
+      foreignAlias: Standards
+
 CheckList:
   actAs:
     Timestampable: ~
@@ -10,20 +62,40 @@ CheckList:
     name:
       type: string(255)
       notnull: true
-    descriptor:
+    observations:
       type: clob
-    prefix:
+    reference:
       type: string(255)
-    threshold:
+    template_id:
       type: integer
       notnull: true
-    status:
-      type: string(255)
+    responsible_id:
+      type: integer
       notnull: true
-    versionAt:
-      type: string
+    original_threshold:
+      type: integer
+      notnull: true
+    assessment:
+      type: float
+    status:
+      type: boolean
+      default: true
+      notnull: true
+    version_at:
+      type: timestamp
+  relations:
+    Template:
+      class: Template
+      local: template_id
+      foreign: id
+      foreignAlias: CheckLists
+    Responsible:
+      class: sfGuardUser
+      local: responsible_id
+      foreign: id
+      foreignAlias: CheckLists
 
-Criteria:
+CheckedStandard:
   actAs:
     Timestampable: ~
   columns:
@@ -35,14 +107,59 @@ Criteria:
     name:
       type: string(255)
       notnull: true
-    check_list_id:
+    description:
+      type: clob
+    standard_type:
+      type: string(255)
+    checklist_id:
       type: integer
       notnull: true
-    weight:
+    final_weight:
+      type: double
+    option_selected:
+      type: string(255)
+    assigned_value:
       type: double
   relations:
     CheckList:
       onDelete: CASCADE
-      local: check_list_id
+      local: checklist_id
       foreign: id
-      foreignAlias: Criteria
+      foreignAlias: CheckedStandards
+
+Assessments:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer
+      primary: true
+      notnull: true
+      autoincrement: true
+    checklist_id:
+      type: integer
+      notnull: true
+    reference:
+      type: string(255)
+      notnull: true
+    day:
+      type: int
+    month:
+      type: int
+    year:
+      type: int
+    day_of_week:
+      type: string
+    version_at:
+      type: timestamp
+      notnull: true
+    value:
+      type: double
+      notnull: true
+  relations:
+    CheckList:
+      class: CheckList
+      onDelete: CASCADE
+      local: checklist_id
+      foreign: id
+      foreignAlias: Assessments

@@ -6,7 +6,6 @@
       <th>Id</th>
       <th>Name</th>
       <th>Descriptor</th>
-      <th>Prefix</th>
       <th>Threshold</th>
       <th>Status</th>
       <th>Version at</th>
@@ -19,9 +18,8 @@
     <tr>
       <td><a href="<?php echo url_for('checkList/show?id='.$check_list->getId()) ?>"><?php echo $check_list->getId() ?></a></td>
       <td><?php echo $check_list->getName() ?></td>
-      <td><?php echo $check_list->getDescriptor() ?></td>
-      <td><?php echo $check_list->getPrefix() ?></td>
-      <td><?php echo $check_list->getThreshold() ?></td>
+      <td><?php echo $check_list->getObservations() ?></td>
+      <td><?php echo $check_list->getOriginalThreshold() ?></td>
       <td><?php echo $check_list->getStatus() ?></td>
       <td><?php echo $check_list->getVersionAt() ?></td>
       <td><?php echo $check_list->getCreatedAt() ?></td>
@@ -34,4 +32,3 @@
 <?php include_partial('pagination', array('pager' => $pager)) ?>
 
   <a href="<?php echo url_for('checkList/new') ?>">New</a>
-  <a href="<?php echo url_for('checkList/newCriterion')?>">New Criterion</a>

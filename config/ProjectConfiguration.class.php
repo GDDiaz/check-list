@@ -1,11 +1,8 @@
 <?php
 
-//require_once __DIR__.'/../vendor/autoload.php';
-if(!class_exists('sfCoreAutoload'))
-{
-  require_once __DIR__.'/../lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php';
-  sfCoreAutoload::register();
-}
+require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/../vendor/lexpress/symfony1/lib/autoload/sfCoreAutoload.class.php';
+sfCoreAutoload::register();
 
 class ProjectConfiguration extends sfProjectConfiguration
 {

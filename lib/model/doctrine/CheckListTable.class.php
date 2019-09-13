@@ -69,7 +69,7 @@ class CheckListTable extends Doctrine_Table
   public function getAllCriteriasByCheckList($checkListId, $hydrationMode = 2)
   {
     $query = Doctrine_Query::create()
-      ->from('Criteria c')
+      ->from('CheckedStandard c')
       ->where('c.check_list_id = ?', 3);
 
     return $query->fetchOne(null, $hydrationMode);

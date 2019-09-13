@@ -15,7 +15,7 @@ class CheckList extends BaseCheckList
 {
   public function getNameWithPrefix()
   {
-    return $this->getPrefix() . '-' . $this->getName();
+    $this->getName();
   }
 
   /**
@@ -49,7 +49,7 @@ class CheckList extends BaseCheckList
    */
   public function hasCriteria()
   {
-    $criterias = $this->getCriteria();
+    $criterias = $this->getCheckedStandards();
 
     if (count($criterias) <= 0)
     {

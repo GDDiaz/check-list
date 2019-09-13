@@ -18,24 +18,42 @@
       <?php echo $form['name'] ?>
       <span class="bar"></span>
      <?php echo $form['name']->renderLabel() ?>
+     <?php echo $form['name']->renderError() ?>
     </div>
 
-    <div class="form-group col-md-12 <?php echo $form['descriptor']->hasError() ? 'has-error': '' ?>">
-      <?php echo $form['descriptor'] ?>
+    <div class="form-group col-md-12 col-md-offset-3 <?php echo $form['reference']->hasError() ? 'has-error': '' ?>">
+      <?php echo $form['reference'] ?>
       <span class="bar"></span>
-      <?php echo $form['descriptor']->renderLabel() ?>
+      <?php echo $form['reference']->renderLabel() ?>
+      <?php echo $form['reference']->renderError() ?>
     </div>
 
-    <div class="form-group col-md-12 <?php echo $form['prefix']->hasError() ? 'has-error': '' ?>">
-      <?php echo $form['prefix'] ?>
+    <div class="form-group col-md-12 <?php echo $form['observations']->hasError() ? 'has-error': '' ?>">
+      <?php echo $form['observations'] ?>
       <span class="bar"></span>
-      <?php echo $form['prefix']->renderLabel() ?>
+      <?php echo $form['observations']->renderLabel() ?>
+      <?php echo $form['observations']->renderError() ?>
     </div>
 
-    <div class="form-group col-md-12 <?php echo $form['threshold']->hasError() ? 'has-error': '' ?>">
-     <?php echo $form['threshold'] ?>
+    <div class="form-group col-md-12 <?php echo $form['template_id']->hasError() ? 'has-error': '' ?>">
+      <?php echo $form['template_id'] ?>
       <span class="bar"></span>
-      <?php echo $form['threshold']->renderLabel() ?>
+      <?php echo $form['template_id']->renderLabel() ?>
+      <?php echo $form['template_id']->renderError() ?>
+    </div>
+
+    <div class="form-group col-md-12 <?php echo $form['responsible_id']->hasError() ? 'has-error': '' ?>">
+      <?php echo $form['responsible_id'] ?>
+      <span class="bar"></span>
+      <?php echo $form['responsible_id']->renderLabel() ?>
+      <?php echo $form['responsible_id']->renderError() ?>
+    </div>
+
+    <div class="form-group col-md-12 <?php echo $form['original_threshold']->hasError() ? 'has-error': '' ?>">
+     <?php echo $form['original_threshold'] ?>
+      <span class="bar"></span>
+      <?php echo $form['original_threshold']->renderLabel() ?>
+      <?php echo $form['original_threshold']->renderError() ?>
     </div>
 
       <div class="form-group col-md-12 <?php echo $form['status']->hasError() ? 'has-error': '' ?>">

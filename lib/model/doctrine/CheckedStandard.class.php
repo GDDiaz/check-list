@@ -11,7 +11,7 @@
  * @author     Your name here
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
-class Criteria extends BaseCriteria
+class CheckedStandard extends BaseCheckedStandard
 {
   public function getNameCustom()
   {
@@ -25,7 +25,7 @@ class Criteria extends BaseCriteria
    */
   public static function sumWeightByCheckList($checkListId, $criterionToExclude = false)
   {
-    return Doctrine_Core::getTable('Criteria')->sumWeightByCheckList($checkListId, $criterionToExclude);
+    return Doctrine_Core::getTable('CheckedStandard')->sumWeightByCheckList($checkListId, $criterionToExclude);
   }
 
   /**
@@ -34,6 +34,6 @@ class Criteria extends BaseCriteria
    */
   public function getCriteriasByCheckList($checkListId)
   {
-    return Doctrine_Core::getTable('Criteria')->getCriteriasByCheckList($checkListId);
+    return Doctrine_Core::getTable('CheckedStandard')->getCriteriasByCheckList($checkListId);
   }
 }

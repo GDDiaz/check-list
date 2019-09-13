@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Criteria filter form.
+ * Standard filter form.
  *
  * @package    check-list
  * @subpackage filter
  * @author     Your name here
  * @version    SVN: $Id$
  */
-class CriteriaFormFilter extends BaseCriteriaFormFilter
+class StandardFormFilter extends BaseStandardFormFilter
 {
   public function configure()
   {
