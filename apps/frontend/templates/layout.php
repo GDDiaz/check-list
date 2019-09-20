@@ -26,8 +26,6 @@
     <?php use_stylesheet('pages/floating-label.css')?>
     <?php use_stylesheet('colors/default-dark.css')?>
 
-
-    <?php use_stylesheet("colors/default-dark.css") ?>
     <?php include_stylesheets(true) ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
