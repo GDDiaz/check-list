@@ -43,7 +43,7 @@
 <!-- ============================================================== -->
 <!-- Main wrapper - style you can find in pages.scss -->
 <!-- ============================================================== -->
-<section id="wrapper" class="login-register login-sidebar" style="background-image:url(../images/background/fondo2.jpg);">
+<section id="wrapper" class="login-register login-sidebar" style="background-image:url(/images/background/fondo2.jpg);">
     <div class="login-box card">
         <div class="card-body">
             <a href="javascript:void(0)" class="text-center db"><img src="/images/logo-icon.png" alt="Home" /><br/><img src="/images/logo-text.png" alt="Home" /></a>

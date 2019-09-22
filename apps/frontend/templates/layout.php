@@ -125,15 +125,27 @@
                 <!-- Sidebar navigation-->
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
-                        <li>
-                            <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">Plantillas</span></a>
-                        </li>
-                        <li>
-                            <a class="waves-effect waves-dark" href="<?php echo url_for('checkList/index') ?>" aria-expanded="false"><i class="fa fa-tasks"></i><span class="hide-menu">Listas de chequeo</span></a>
-                        </li>
-                        <li>
-                            <a class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="fa fa-bar-chart-o"></i><span class="hide-menu">Informe</span></a>
-                        </li>
+                        <?php if ($sf_user->hasCredential('admin')): ?>
+                          <li>
+                              <a class="waves-effect waves-dark" href="<?php echo url_for('sfGuardUser/index') ?>" aria-expanded="false"><i class="mdi mdi-account"></i><span class="hide-menu">Users</span></a>
+                          </li>
+                          <li>
+                              <a class="waves-effect waves-dark" href="<?php echo url_for('sfGuardGroup/index') ?>" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Groups</span></a>
+                          </li>
+                          <li>
+                              <a class="waves-effect waves-dark" href="<?php echo url_for('template/index') ?>" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">Plantillas</span></a>
+                          </li>
+                        <?php endif; ?>
+                        <?php if ($sf_user->hasCredential('staff') || $sf_user->hasCredential('admin')): ?>
+                          <li>
+                              <a class="waves-effect waves-dark" href="<?php echo url_for('checkList/index') ?>" aria-expanded="false"><i class="fa fa-tasks"></i><span class="hide-menu">Listas de chequeo</span></a>
+                          </li>
+                        <?php endif; ?>
+                        <?php if ($sf_user->hasCredential('admin') || $sf_user->hasCredential('staff') || $sf_user->hasCredential('guest')): ?>
+                          <li>
+                              <a class="waves-effect waves-dark" href="<?php echo url_for('checkList/report') ?>" aria-expanded="false"><i class="fa fa-bar-chart-o"></i><span class="hide-menu">Informe</span></a>
+                          </li>
+                        <?php endif; ?>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->

@@ -25,6 +25,10 @@ class templateActions extends sfActions
 
   public function executeNew(sfWebRequest $request)
   {
+    $user = $this->getUser();
+    if ( !$user->hasCredential('admin') ) {
+      $this->forward404Unless(true);
+    }
     $this->form = new TemplateForm();
   }
 

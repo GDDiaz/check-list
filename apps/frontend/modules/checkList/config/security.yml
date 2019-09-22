@@ -1,0 +1,2 @@
+all:
+  credentials: [[admin, staff]]]  # debe tener la credencial admin o staff
