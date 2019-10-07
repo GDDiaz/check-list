@@ -16,4 +16,19 @@ class TemplateTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Template');
     }
+
+    /**
+     * Este metodo busca y retorna una plantilla de la base de datos buscandolo por el id.
+     * @param $id
+     * @param int $hydrationMode
+     * @return Doctrine_Collection
+     * @throws Doctrine_Query_Exception
+     */
+    public static function getTemplateById($id) {
+        $query = Doctrine_Query::create()
+            ->from('Template t')
+            ->where('t.id = ?', $id);
+
+        return $query->fetchOne();
+    }
 }
