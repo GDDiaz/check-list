@@ -12,9 +12,18 @@ class templateActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->templates = Doctrine_Core::getTable('Template')
-      ->createQuery('a')
-      ->execute();
+      $this->formFilter = new TemplateFormFilter();
+      if($request->isMethod(sfRequest::POST)) {
+          $this->formFilter->bind($request->getParameter($this->formFilter->getName()), $request->getFiles($this->formFilter->getName()));
+          $this->templates = $this->formFilter->buildQuery($this->formFilter->getValues())->execute();
+
+      } else {
+          $this->templates = Doctrine_Core::getTable('Template')
+              ->createQuery('a')
+              ->execute();
+      }
+
+
   }
 
   public function executeShow(sfWebRequest $request)

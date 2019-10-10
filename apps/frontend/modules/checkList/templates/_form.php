@@ -13,7 +13,6 @@
         <?php endforeach; ?>
       </ul>
     </div>
-
     <div class="form-group col-md-12 col-md-offset-3 <?php echo $form['name']->hasError() ? 'has-error': '' ?>">
       <?php echo $form['name'] ?>
       <span class="bar"></span>

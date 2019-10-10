@@ -12,7 +12,18 @@ class checkListActions extends sfActions
 {
     public function executeIndex(sfWebRequest $request)
     {
-        $this->check_lists = Doctrine_Core::getTable('CheckList')->createQuery('a');
+        $this->formFilter = new CheckListFormFilter();
+        if($request->isMethod(sfRequest::POST)) {
+            $this->formFilter->bind($request->getParameter($this->formFilter->getName()), $request->getFiles($this->formFilter->getName()));
+            $this->check_lists = $this->formFilter->buildQuery($this->formFilter->getValues());
+            $this->getUser()->setAttribute('check_list_filter', $this->formFilter->getValues());
+        } else {
+            $this->check_lists = Doctrine_Core::getTable('CheckList')->createQuery('a');
+            if ($this->getUser()->getAttribute('check_list_filter')) {
+                $this->check_lists = $this->formFilter->buildQuery($this->getUser()->getAttribute('check_list_filter'));
+            }
+        }
+
         $this->pager = new sfDoctrinePager('CheckList', sfConfig::get('app_max_per_page'));
         $this->pager->setQuery($this->check_lists);
         $this->pager->setPage($request->getParameter('page', 1));

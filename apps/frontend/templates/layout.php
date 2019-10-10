@@ -16,11 +16,10 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <title>Check list</title>
-    <!-- Bootstrap Core CSS -->
-    <?php // use_javascript('')?>
+    <!-- Bootstrap Core CSS -->    <?php // use_javascript('')?>
     <?php use_stylesheet('plugins/bootstrap/css/bootstrap.min.css')?>
     <?php use_stylesheet('plugins/perfect-scrollbar/css/perfect-scrollbar.css')?>
-
+    <?php use_stylesheet('plugins/bootstrap-datepicker/bootstrap-datepicker.min.css')?>
     <?php use_stylesheet('style.css')?>
     <?php use_stylesheet('pages/dashboard1.css')?>
     <?php use_stylesheet('pages/floating-label.css')?>
@@ -33,6 +32,31 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <?php use_javascript('plugins/jquery/jquery.min.js') ?>
+    <!-- Bootstrap popper Core JavaScript -->
+    <?php use_javascript('plugins/bootstrap/js/popper.min.js') ?>
+    <?php use_javascript('plugins/bootstrap/js/bootstrap.min.js') ?>
+
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <?php use_javascript('perfect-scrollbar.jquery.min.js') ?>
+
+    <!--Wave Effects -->
+    <?php use_javascript('waves.js') ?>
+    <!--Menu sidebar -->
+    <?php use_javascript('sidebarmenu.js') ?>
+    <!--Custom JavaScript -->
+    <?php use_javascript('custom.js') ?>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <?php use_javascript('plugins/bootstrap-datepicker/bootstrap-datepicker.min.js') ?>
+    <?php use_javascript('plugins/toast-master/js/jquery.toast.js') ?>
+    <?php use_javascript('dashboard1.js') ?>
+
+    <?php include_javascripts(true) ?>
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -221,30 +245,6 @@
     <!-- ============================================================== -->
 
 
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <?php use_javascript('plugins/jquery/jquery.min.js') ?>
-    <!-- Bootstrap popper Core JavaScript -->
-    <?php use_javascript('plugins/bootstrap/js/popper.min.js') ?>
-    <?php use_javascript('plugins/bootstrap/js/bootstrap.min.js') ?>
-
-    <!-- slimscrollbar scrollbar JavaScript -->
-    <?php use_javascript('perfect-scrollbar.jquery.min.js') ?>
-
-    <!--Wave Effects -->
-    <?php use_javascript('waves.js') ?>
-    <!--Menu sidebar -->
-    <?php use_javascript('sidebarmenu.js') ?>
-    <!--Custom JavaScript -->
-    <?php use_javascript('custom.min.js') ?>
-    <!-- ============================================================== -->
-    <!-- This page plugins -->
-    <!-- ============================================================== -->
-
-    <?php use_javascript('plugins/toast-master/js/jquery.toast.js') ?>
-    <?php use_javascript('dashboard1.js') ?>
-
-    <?php include_javascripts(true) ?>
 </body>
 
 </html>

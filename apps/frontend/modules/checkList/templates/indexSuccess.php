@@ -1,5 +1,5 @@
 <h1>Check lists List</h1>
-
+<?php include_partial('form_filter', array('formFilter' => $formFilter, 'url' => 'checkList/index')) ?>
 <table class="table">
     <thead>
     <tr>

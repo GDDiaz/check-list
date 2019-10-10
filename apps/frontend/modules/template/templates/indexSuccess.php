@@ -1,5 +1,5 @@
 <h1>Templates List</h1>
-
+<?php include_partial('filter', array( 'url' => 'template/index', 'formFilter' => $formFilter))?>
 <table>
   <thead>
     <tr>
