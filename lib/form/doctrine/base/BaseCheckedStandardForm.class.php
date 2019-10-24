@@ -23,6 +23,7 @@ abstract class BaseCheckedStandardForm extends BaseFormDoctrine
       'final_weight'    => new sfWidgetFormInputText(),
       'option_selected' => new sfWidgetFormInputText(),
       'assigned_value'  => new sfWidgetFormInputText(),
+      'is_killer_q'     => new sfWidgetFormInputCheckbox(),
       'created_at'      => new sfWidgetFormDateTime(),
       'updated_at'      => new sfWidgetFormDateTime(),
     ));
@@ -36,6 +37,7 @@ abstract class BaseCheckedStandardForm extends BaseFormDoctrine
       'final_weight'    => new sfValidatorPass(array('required' => false)),
       'option_selected' => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'assigned_value'  => new sfValidatorPass(array('required' => false)),
+      'is_killer_q'     => new sfValidatorBoolean(array('required' => false)),
       'created_at'      => new sfValidatorDateTime(),
       'updated_at'      => new sfValidatorDateTime(),
     ));

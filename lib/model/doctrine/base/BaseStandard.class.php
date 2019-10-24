@@ -10,6 +10,7 @@
  * @property string    $description                Type: clob
  * @property int       $template_id                Type: integer
  * @property double    $weight                     Type: double
+ * @property bool      $is_killer_q                Type: boolean
  * @property Template  $Template                   
  *  
  * @method int         getId()                     Type: integer, primary key
@@ -17,6 +18,7 @@
  * @method string      getDescription()            Type: clob
  * @method int         getTemplateId()             Type: integer
  * @method double      getWeight()                 Type: double
+ * @method bool        getIsKillerQ()              Type: boolean
  * @method Template    getTemplate()               
  *  
  * @method Standard    setId(int $val)             Type: integer, primary key
@@ -24,6 +26,7 @@
  * @method Standard    setDescription(string $val) Type: clob
  * @method Standard    setTemplateId(int $val)     Type: integer
  * @method Standard    setWeight(double $val)      Type: double
+ * @method Standard    setIsKillerQ(bool $val)     Type: boolean
  * @method Standard    setTemplate(Template $val)  
  *  
  * @package    check-list
@@ -55,6 +58,9 @@ abstract class BaseStandard extends sfDoctrineRecord
              ));
         $this->hasColumn('weight', 'double', null, array(
              'type' => 'double',
+             ));
+        $this->hasColumn('is_killer_q', 'boolean', null, array(
+             'type' => 'boolean',
              ));
     }
 

@@ -20,6 +20,7 @@ abstract class BaseStandardForm extends BaseFormDoctrine
       'description' => new sfWidgetFormTextarea(),
       'template_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Template'), 'add_empty' => false)),
       'weight'      => new sfWidgetFormInputText(),
+      'is_killer_q' => new sfWidgetFormInputCheckbox(),
       'created_at'  => new sfWidgetFormDateTime(),
       'updated_at'  => new sfWidgetFormDateTime(),
     ));
@@ -30,6 +31,7 @@ abstract class BaseStandardForm extends BaseFormDoctrine
       'description' => new sfValidatorString(array('required' => false)),
       'template_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Template'), 'column' => 'id')),
       'weight'      => new sfValidatorPass(array('required' => false)),
+      'is_killer_q' => new sfValidatorBoolean(array('required' => false)),
       'created_at'  => new sfValidatorDateTime(),
       'updated_at'  => new sfValidatorDateTime(),
     ));

@@ -20,6 +20,7 @@ abstract class BaseCheckedStandardFormFilter extends BaseFormFilterDoctrine
       'final_weight'    => new sfWidgetFormFilterInput(),
       'option_selected' => new sfWidgetFormFilterInput(),
       'assigned_value'  => new sfWidgetFormFilterInput(),
+      'is_killer_q'     => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'created_at'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'updated_at'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
     ));
@@ -32,6 +33,7 @@ abstract class BaseCheckedStandardFormFilter extends BaseFormFilterDoctrine
       'final_weight'    => new sfValidatorPass(array('required' => false)),
       'option_selected' => new sfValidatorPass(array('required' => false)),
       'assigned_value'  => new sfValidatorPass(array('required' => false)),
+      'is_killer_q'     => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'created_at'      => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
       'updated_at'      => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
     ));
@@ -61,6 +63,7 @@ abstract class BaseCheckedStandardFormFilter extends BaseFormFilterDoctrine
       'final_weight'    => 'Text',
       'option_selected' => 'Text',
       'assigned_value'  => 'Text',
+      'is_killer_q'     => 'Boolean',
       'created_at'      => 'Date',
       'updated_at'      => 'Date',
     );

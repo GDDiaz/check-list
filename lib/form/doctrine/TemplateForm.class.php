@@ -12,5 +12,10 @@ class TemplateForm extends BaseTemplateForm
 {
   public function configure()
   {
+      $this->useFields(['name',
+          'description',
+          'prefix',
+          'threshold',
+          'status' ]);
   }
 }

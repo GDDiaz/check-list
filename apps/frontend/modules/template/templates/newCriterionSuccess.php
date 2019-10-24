@@ -29,6 +29,16 @@
             <?php echo $form['template_id']->renderLabel() ?>
         </div>
 
+
+        <div class="form-group col-md-12 <?php echo $form['is_killer_q']->hasError() ? 'has-error' : '' ?>">
+            <div class="checkbox checkbox-primary pull-left p-t-0">
+                <?php echo $form['is_killer_q'] ?>
+                <?php echo $form['is_killer_q']->renderLabel() ?>
+                <?php echo $form['is_killer_q']->renderError() ?>
+            </div>
+        </div>
+
+
         <div class="form-group col-md-12 <?php echo $form['weight']->hasError() ? 'has-error': '' ?>">
             <?php echo $form['weight'] ?>
             <?php echo $form['weight']->renderError() ?>

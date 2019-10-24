@@ -62,6 +62,9 @@ class CheckListForm extends BaseCheckListForm
           // creamos la relacion entre las tablas check_list y checked_standard
           // esta relacion es obligatoria ya que al no hacerla podemos generar un error a nivel de base de datos
           $checkedStandard->setCheckList($this->getObject());
+
+          // copiar la propiedad is_killer_question al criterio de la lista de chequeo basado en el criterio de la plantilla
+          $checkedStandard->setIsKillerQ($standard->getIsKillerQ());
           //añadimos el nuevo registro a la colleccion
           $newListStandard->add($checkedStandard);
       }

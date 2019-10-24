@@ -13,6 +13,7 @@
  * @property double           $final_weight                  Type: double
  * @property string           $option_selected               Type: string(255)
  * @property double           $assigned_value                Type: double
+ * @property bool             $is_killer_q                   Type: boolean
  * @property CheckList        $CheckList                     
  *  
  * @method int                getId()                        Type: integer, primary key
@@ -23,6 +24,7 @@
  * @method double             getFinalWeight()               Type: double
  * @method string             getOptionSelected()            Type: string(255)
  * @method double             getAssignedValue()             Type: double
+ * @method bool               getIsKillerQ()                 Type: boolean
  * @method CheckList          getCheckList()                 
  *  
  * @method CheckedStandard    setId(int $val)                Type: integer, primary key
@@ -33,6 +35,7 @@
  * @method CheckedStandard    setFinalWeight(double $val)    Type: double
  * @method CheckedStandard    setOptionSelected(string $val) Type: string(255)
  * @method CheckedStandard    setAssignedValue(double $val)  Type: double
+ * @method CheckedStandard    setIsKillerQ(bool $val)        Type: boolean
  * @method CheckedStandard    setCheckList(CheckList $val)   
  *  
  * @package    check-list
@@ -75,6 +78,9 @@ abstract class BaseCheckedStandard extends sfDoctrineRecord
              ));
         $this->hasColumn('assigned_value', 'double', null, array(
              'type' => 'double',
+             ));
+        $this->hasColumn('is_killer_q', 'boolean', null, array(
+             'type' => 'boolean',
              ));
     }
 
