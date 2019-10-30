@@ -41,6 +41,6 @@
 
 <hr />
 
-<a href="<?php echo url_for('template/edit?id='.$template->getId()) ?>">Edit</a>
+<a class="btn btn-info" href="<?php echo url_for('template/edit?id='.$template->getId()) ?>">Editar</a>
 &nbsp;
-<a href="<?php echo url_for('template/index') ?>">List</a>
+<a class="btn btn-light" href="<?php echo url_for('template/index') ?>">Listado</a>

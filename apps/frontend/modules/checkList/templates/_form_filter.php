@@ -1,8 +1,6 @@
-<div class="button-box">
-    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#filterModal"
-            data-whatever="@getbootstrap"><i class="fa fa-search"></i> Buscar
-    </button>
-</div>
+
+
+
 <div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel1">
     <div class="modal-dialog" role="document">
         <div class="modal-content">

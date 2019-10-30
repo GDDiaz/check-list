@@ -4,7 +4,7 @@
 <h2 class="box-title"><?php echo $title?></h2>
 <hr class="m-t-0 m-b-40">
 
-<form class="floating-labels m-t-40" action="<?php echo url_for('template/'.($form->getObject()->isNew() ? 'newCriterion' : 'editCriterion').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
+<form class="floating-labels m-t-40 general" action="<?php echo url_for('template/'.($form->getObject()->isNew() ? 'newCriterion' : 'editCriterion').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
     <?php if (!$form->getObject()->isNew()): ?>
         <input type="hidden" name="sf_method" value="put" />
     <?php endif; ?>
@@ -53,11 +53,11 @@
     </div>
     <div class="row">
         <div class="col m12">
-            &nbsp;<a href="<?php echo url_for('template/index') ?>">Back to list</a>
+            &nbsp;<a class="btn btn-light" href="<?php echo url_for('template/index') ?>">Back to list</a>
             <?php if (!$form->getObject()->isNew()): ?>
-                &nbsp;<?php echo link_to('Delete', 'template/deleteCriterion?id='.$form->getObject()->getId(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+                &nbsp;<?php echo link_to('Delete', 'template/deleteCriterion?id='.$form->getObject()->getId(), array('class'=> 'btn btn-danger', 'method' => 'delete', 'confirm' => 'Are you sure?')) ?>
             <?php endif; ?>
-            <input type="submit" value="Save" />
+            <input class="btn btn-info" type="submit" value="Save" />
 
         </div>
     </div>

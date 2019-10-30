@@ -154,4 +154,8 @@ $(function() {
         $(this).closest('.card').removeClass().slideUp('fast');
     });
 
+    $('.fab').click(function() {
+        $(this).toggleClass('open');
+    });
+
 });
