@@ -49,6 +49,6 @@
     </div>
   </div>
 
-  <?php // include_partial('filter', array( 'url' => 'template/index', 'formFilter' => $formFilter))?>
+
   <?php include_partial('checkList/form_filter', array('url' => 'template/index', 'formFilter' => $formFilter)) ?>
 

@@ -1,32 +1,40 @@
-<div class="button-box">
-    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#filterModal"
-            data-whatever="@getbootstrap"><i class="fa fa-search"></i> Buscar
-    </button>
-</div>
+
 <div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel1">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <form class="floating-labels m-t-40" action="<?php echo url_for($url) ?>"
-                  method="post" <?php $formFilter->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <?php if ($form->hasGlobalErrors()): ?>
+        <?php echo $form->renderGlobalErrors() ?>
+      <?php endif; ?>
 
-                <div class="modal-header">
-                    <h4 class="modal-title" id="filterModalLabel1">New message</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span></button>
-                </div>
-                <form class="floating-labels m-t-40" action="<?php echo url_for($url) ?>"
-                      method="post" <?php $formFilter->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
-
-                    <div class="modal-body">
-                        <?php echo $formFilter ?>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <input class="btn btn-primary" type="submit" value="Filtrar"/>
-                    </div>
-                </form>
-        </div>
+      <form action="<?php echo url_for('sf_guard_user_collection', array('action' => 'filter')) ?>" method="post">
+        <table cellspacing="0">
+          <tfoot>
+          <tr>
+            <td colspan="2">
+              <?php echo $form->renderHiddenFields() ?>
+              <?php echo link_to(__('Reset', array(), 'sf_admin'), 'sf_guard_user_collection', array('action' => 'filter'), array('query_string' => '_reset', 'method' => 'post')) ?>
+              <input type="submit" value="<?php echo __('Filter', array(), 'sf_admin') ?>"/>
+            </td>
+          </tr>
+          </tfoot>
+          <tbody>
+          <?php foreach ($configuration->getFormFilterFields($form) as $name => $field): ?>
+            <?php if ((isset($form[$name]) && $form[$name]->isHidden()) || (!isset($form[$name]) && $field->isReal())) continue ?>
+            <?php include_partial('sfGuardUser/filters_field', array(
+              'name' => $name,
+              'attributes' => $field->getConfig('attributes', array()),
+              'label' => $field->getConfig('label'),
+              'help' => $field->getConfig('help'),
+              'form' => $form,
+              'field' => $field,
+              'class' => 'sf_admin_form_row sf_admin_' . strtolower($field->getType()) . ' sf_admin_filter_field_' . $name,
+            )) ?>
+          <?php endforeach; ?>
+          </tbody>
+        </table>
+      </form>
     </div>
+  </div>
 </div>
 <!-- /.modal -->
 </div>
